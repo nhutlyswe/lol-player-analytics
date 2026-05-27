@@ -9,7 +9,8 @@ export default function Home() {
   const [submittedName, setSubmittedName] = useState("");
 
   const mockSummner: Summoner = {
-    name: "PlayerName",
+    gameName: "PlayerName",
+    tagLine: "1234",
     rank: "Gold IV",
     champions: [
       { name: "Ahri", gamesPlayed: 20, winRate: 55, kda: 3.2 },
@@ -43,7 +44,7 @@ export default function Home() {
       {submittedName && (
       <section>
         <h2>Summoner preview</h2>
-        <p><strong>Name:</strong> {mockSummner.name}</p>
+        <p><strong>Name:</strong> {mockSummner.gameName}</p>
         <p><strong>Rank:</strong> {mockSummner.rank}</p>
 
         <h3>Top Champions</h3>
