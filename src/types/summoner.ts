@@ -1,7 +1,8 @@
 import { Champion } from "./champion";
 
 export interface Summoner{
-    name: string;
+    gameName: string;
+    tagLine: string;
     rank: string;
     champions: Champion[];
 }
