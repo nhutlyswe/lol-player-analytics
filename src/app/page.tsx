@@ -1,18 +1,39 @@
 "use client";
 
 import { useState } from "react";
-
 import { Summoner } from "@/types/summoner";
 
 export default function Home() {
   const [summoner, setSummoner] = useState("");
   const [submittedName, setSubmittedName] = useState("");
   const [champions, setChampions] = useState([]);
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
   async function fetchSummonerData(gameName: string, tagLine: string) {
-    const response = await fetch(`/api/summoner?gameName=${encodeURIComponent(gameName)}&tagLine=${encodeURIComponent(tagLine)}`);
-    const data = await response.json();
-    setChampions(data.champions);
+    setLoading(true);
+    setError("");
+
+    try {
+      const response = await fetch(`/api/summoner?gameName=${encodeURIComponent(gameName)}&tagLine=${encodeURIComponent(tagLine)}`);
+      const data = await response.json();
+
+      if (!response.ok) {
+        setChampions([]);
+        setError(data.error || "Failed to fetch summoner data");
+        return;
+      }
+
+      setChampions(data.champions || []);
+
+    } catch {
+      setChampions([]);
+      setError("Failed to fetch summoner data. Please check the name and tag line and try again.");
+
+    } finally {
+      setLoading(false);
+    }
+
   }
 
   const mockSummner: Summoner = {
@@ -29,7 +50,16 @@ export default function Home() {
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const trimmed = summoner.trim();
-    if (!trimmed) return;
+    const [gameName, tagLine] = trimmed.split("#");
+
+    if (!gameName || !tagLine) {
+      setError("Please enter a valid summoner name in the format 'Name#TagLine'");
+      setChampions([]);
+      return;
+    }
+
+    fetchSummonerData(gameName, tagLine);
+
     setSubmittedName(trimmed);
   }
 
@@ -41,28 +71,30 @@ export default function Home() {
         <input
           value={summoner}
           onChange={(event) => setSummoner(event.target.value)}
-          placeholder="Enter summoner name"
+          placeholder="Enter summoner as gameName#tagLine"
         />
         <button type="submit">Search</button>
       </form>
 
+      {loading && <p>Loading...</p>}
+      {error && <p style={{ color: "red" }}>{error}</p>}
+
       {submittedName && <p>Searching for: {submittedName}</p>}
 
       {submittedName && (
-      <section>
-        <h2>Summoner preview</h2>
-        <p><strong>Name:</strong> {mockSummner.gameName}</p>
-        <p><strong>Rank:</strong> {mockSummner.rank}</p>
+        <section>
+          <h2>Summoner preview</h2>
+          <p><strong>Name:</strong> {submittedName}</p>
 
-        <h3>Top Champions</h3>
-        <ul>
-          {mockSummner.champions.map((champion) => (
-            <li key={champion.name}>
-              <strong>{champion.name}</strong> - Games: {champion.gamesPlayed}, Win Rate: {champion.winRate}%, KDA: {champion.kda}
-            </li>
-          ))}
-        </ul>
-      </section>
+          <h3>Top Champions</h3>
+          <ul>
+            {champions.map((champion: any) => (
+              <li key={champion.championId}>
+                Champion ID: {champion.championId} - Level: {champion.championLevel} - Points: {champion.championPoints}
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
     </main>
   );
