@@ -1,7 +1,4 @@
-type Champion = {
-    championId: number;
-    championPoints: number;
-}
+import { Champion } from "@/types/champion";
 
 type Props = {
     champions: Champion[];

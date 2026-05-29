@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Summoner } from "@/types/summoner";
+import ChampionList from "@/components/ChampionList";
 
 export default function Home() {
 
@@ -246,51 +246,12 @@ export default function Home() {
             {submittedGameName}
           </p>
 
-          <h3>Top Champions</h3>
-
           <ul>
-
-            {champions.map((champion: any) => {
-              // Convert champion ID into readable name
-              const name =
-                championNames[champion.championId]
-                ?? `Unknown (${champion.championId})`;
-              // Build champion icon URL
-              const iconUrl =
-                getChampionIconUrl(
-                  champion.championId
-                );
-              return (
-                <li
-                  key={champion.championId}
-
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px",
-                  }}
-                >
-                  {/* Champion Icon */}
-                  {iconUrl && (
-                    <img
-                      src={iconUrl}
-                      alt={name}
-                      width={48}
-                      height={48}
-                    />
-                  )}
-                  {/* Champion Info */}
-                  <span>
-                    {name}
-                    {" "}
-                    - Points:
-                    {" "}
-                    {champion.championPoints}
-                  </span>
-                </li>
-              );
-            })}
-
+            <ChampionList
+              champions={champions}
+              championNames={championNames}
+              getChampionIconUrl={getChampionIconUrl}
+            />
           </ul>
 
         </section>
