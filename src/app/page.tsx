@@ -1,5 +1,8 @@
 "use client";
 
+// Styles
+import styles from "./page.module.css";
+
 // React
 import { useEffect, useState } from "react";
 
@@ -161,20 +164,21 @@ export default function Home() {
   // Render UI
   // =========================
   return (
-    <main>
+    <main className={styles.page}>
 
       <h1>League Analytics</h1>
 
       {/* Search Form */}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.searchForm}>
         <input
           value={summonerInput}
           onChange={(event) =>
             setSummonerInput(event.target.value)
           }
           placeholder="Enter summoner as gameName#tagLine"
+          className={styles.searchInput}
         />
-        <button type="submit">
+        <button type="submit" className={styles.searchButton}>
           Search
         </button>
       </form>
@@ -191,7 +195,7 @@ export default function Home() {
     
       {/* Results */}
       {summoner && (
-        <section>
+        <section className={styles.results}>
           <SummonerCard summoner={summoner}/>
           
           <ChampionList

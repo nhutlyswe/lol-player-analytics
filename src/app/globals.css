@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --lol-blue: #0A1428;
+  --lol-gold: #C89B3C;
+  --lol-text: #F0E6D2;
 }
 
 @theme inline {
