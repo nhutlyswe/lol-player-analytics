@@ -4,5 +4,4 @@ export interface Summoner{
     gameName: string;
     tagLine: string;
     rank: string;
-    champions: Champion[];
 }

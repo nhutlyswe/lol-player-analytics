@@ -11,7 +11,6 @@ export default function ChampionList({
     championNames,
     getChampionIconUrl,
 }: Props) {
-
     if (champions.length === 0) {
         return null;
     }
