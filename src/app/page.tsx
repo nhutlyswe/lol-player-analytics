@@ -1,5 +1,8 @@
 "use client";
 
+// Styles
+import styles from "./page.module.css";
+
 // React
 import { useEffect, useState } from "react";
 
@@ -107,14 +110,17 @@ export default function Home() {
       const data = await response.json();
 
       if (!response.ok) {
+        setSummoner(null);
         setChampions([]);
         setError(
           data.error || "Failed to fetch summoner data"
         );
         return;
       }
+      setSummoner(data.summoner || null);
       setChampions(data.champions || []);
     } catch {
+      setSummoner(null);
       setChampions([]);
       setError(
         "Failed to fetch summoner data. Please check the name and tag line and try again."
@@ -146,35 +152,29 @@ export default function Home() {
       return;
     }
 
-    const summonerData: Summoner = {
-      gameName,
-      tagLine,
-      rank: "Unknown",
-    };
-
-    setSummoner(summonerData);
     // Fetch Riot data
-    fetchSummonerData(summonerData.gameName, summonerData.tagLine);
+    fetchSummonerData(gameName, tagLine);
   }
 
   // =========================
   // Render UI
   // =========================
   return (
-    <main>
+    <main className={styles.page}>
 
-      <h1>League Analytics</h1>
+      <h1 className={styles.pageTitle}>Summoner Scout</h1>
 
       {/* Search Form */}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.searchForm}>
         <input
           value={summonerInput}
           onChange={(event) =>
             setSummonerInput(event.target.value)
           }
           placeholder="Enter summoner as gameName#tagLine"
+          className={styles.searchInput}
         />
-        <button type="submit">
+        <button type="submit" className={styles.searchButton}>
           Search
         </button>
       </form>
@@ -191,15 +191,16 @@ export default function Home() {
     
       {/* Results */}
       {summoner && (
-        <section>
-          <SummonerCard summoner={summoner}/>
-          
-          <ChampionList
-            champions={champions}
-            championNames={championNames}
-            getChampionIconUrl={getChampionIconUrl}
-          />
+        <><section className={styles.summonerCardResults}>
+          <SummonerCard summoner={summoner} />
         </section>
+        
+        <section className={styles.ChampionListResults}>
+            <ChampionList
+              champions={champions.slice(0, 5)}
+              championNames={championNames}
+              getChampionIconUrl={getChampionIconUrl} />
+        </section></>
       )}
 
     </main>

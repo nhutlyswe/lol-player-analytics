@@ -11,10 +11,14 @@ export default function SummonerCard({
         <section>
             <h2>Summoner Preview</h2>
             <p>
-            <strong>Name:</strong>
-            {" "}
-            {summoner.gameName}#{summoner.tagLine}
-          </p>
+                <strong>Name:</strong>{" "}
+                {summoner.gameName} #{summoner.tagLine}
+                </p>
+
+                <p>
+                <strong>Solo/Duo Rank:</strong>{" "}
+                {summoner.rankSolo}
+            </p>
         </section>
     )
 }

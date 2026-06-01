@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { getAccountByRiotId, getChampionMasteryByPuuid, getRankSoloByPuuid } from '@/lib/riot';
 
 function mapRiotError(status: number, resource: string) {
     switch (status) {
@@ -13,73 +14,32 @@ function mapRiotError(status: number, resource: string) {
 }
 
 export async function GET(request: Request) {
+    const url = new URL(request.url);
+    const gameName = url.searchParams.get('gameName');
+    const tagLine = url.searchParams.get('tagLine');
+
+    if (!gameName?.trim() || !tagLine?.trim()) {
+        return NextResponse.json(
+            { error: "Missing game name or tag line" },
+            { status: 400 }
+        );
+    }
 
     try {
-        const url = new URL(request.url);
-        const gameName = url.searchParams.get('gameName');
-        const tagLine = url.searchParams.get('tagLine');
+        const account = await getAccountByRiotId(gameName, tagLine);
+        const puuid = account.puuid;
+        const championMastery = await getChampionMasteryByPuuid(puuid);
+        const rankSolo = await getRankSoloByPuuid(puuid);
 
-        if (!gameName?.trim()) {
-            return NextResponse.json(
-                { error: 'Missing game name' },
-                { status: 400 }
-            );
-        }
-
-        if (!tagLine?.trim()) {
-            return NextResponse.json(
-                { error: 'Missing tag line' },
-                { status: 400 }
-            );
-        }
-
-        const apiKey = process.env.RIOT_API_KEY;
-
-        if (!apiKey) {
-            return NextResponse.json({ error: 'Missing API key' }, { status: 500 });
-        }
-
-        const regionRoutingValue = "americas.api.riotgames.com";
-        const platformRoutingValue = "na1.api.riotgames.com";
-
-        const accountResponse = await fetch(
-            `https://${regionRoutingValue}/riot/account/v1/accounts/by-riot-id/${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`,
-            {
-                headers: {
-                    'X-Riot-Token': apiKey
-                }
-            }
-        );
-
-        if (!accountResponse.ok) {
-            const riotError = mapRiotError(accountResponse.status, 'Summoner');
-            return NextResponse.json({ error: riotError.error }, { status: riotError.status });
-        }
-
-        const accountData = await accountResponse.json();
-
-        const puuid = accountData.puuid;
-
-        if (!puuid) {
-            return NextResponse.json({ error: 'PUUID not found for summoner' }, { status: 500 });
-        }
-        const championMasteryResponse = await fetch(
-            `https://${platformRoutingValue}/lol/champion-mastery/v4/champion-masteries/by-puuid/${encodeURIComponent(puuid)}`,
-            {
-                headers: {
-                    'X-Riot-Token': apiKey
-                }
-            }
-        );
-
-        if (!championMasteryResponse.ok) {
-            const riotError = mapRiotError(championMasteryResponse.status, 'Champion mastery data');
-            return NextResponse.json({ error: riotError.error }, { status: riotError.status });
-        }
-
-        const championMasteryData = await championMasteryResponse.json();
-
-        return NextResponse.json({ champions: championMasteryData });
+        return NextResponse.json({ 
+            summoner: {
+                gameName: account.gameName,
+                tagLine: account.tagLine,
+                puuid: account.puuid,
+                rankSolo: rankSolo ?? "UNRANKED",
+            },
+            champions: championMastery,
+        });
     } catch (error) {
         console.error("Summoner route error:", error);
         return NextResponse.json({ error: 'Unexpected server error while fetching summoner data' }, { status: 500 });
