@@ -1,8 +1,19 @@
 .page {
-    max-width: 900px;
+    max-width: 10000px;
     width: 100%;
     margin: 0 auto;
     padding: 1.5rem;
+}
+
+.pageTitle {
+    font-family: Georgia, serif;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 700;
+    text-align: center;
+    color: #C89B3C;
+    margin-bottom: clamp(1rem, 3vw, 2rem);
+    letter-spacing: clamp(1px, 0.2vw, 2px);
+    text-transform: uppercase;
 }
 
 .searchForm {
@@ -14,27 +25,35 @@
     flex: 1;
     padding: 12px;
     font-size: 1rem;
-
     border: 1px solid #C89B3C;
     border-radius: 8px;
 }
 
 .searchButton {
     padding: 12px 24px;
-
     border: 1px solid #C89B3C;
     border-radius: 8px;
-
     background-color: #0A1428;
     color: #F0E6D2;
-
     cursor: pointer;
 }
 
-.results {
+.summonerCardResults {
     border: 1px solid #c89b3c;
     border-radius: 8px;
     padding: 24px;
     margin-top: 24px;
     background-color: #0A1428;
+    font-family: Georgia, serif;
+    font-weight: 400;
+}
+
+.ChampionListResults {
+    border: 1px solid #c89b3c;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 24px;
+    background-color: #0A1428;
+    font-family: Georgia, serif;
+    font-weight: 400;
 }
