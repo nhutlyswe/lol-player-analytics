@@ -36,10 +36,13 @@ export async function getChampionMetaData() {
 }
 
 export function getChampionIconUrl(
-    version: string,
-    championImageId: string
-): string {
-    return `https://${DATA_DRAGON_ROUTING}/cdn/${version}/img/champion/${championImageId}.png`;
+    ddragonVersion: string,
+    championId: number,
+    championImageIds: Record<number, string>
+): string | null{
+    const championImageId = championImageIds[championId];
+    if (!championImageId) {
+        return null;
+    }
+    return `https://${DATA_DRAGON_ROUTING}/cdn/${ddragonVersion}/img/champion/${championImageId}.png`;
 }
-
-

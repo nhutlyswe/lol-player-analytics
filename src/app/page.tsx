@@ -14,6 +14,8 @@ import SummonerCard from "@/components/SummonerCard";
 import { Champion } from "@/types/champion";
 import { Summoner } from "@/types/summoner";
 
+import { getChampionMetaData, getChampionIconUrl} from "@/lib/ddragon";
+
 export default function Home() {
 
   // Search State
@@ -43,53 +45,15 @@ export default function Home() {
   useEffect(() => {
 
     // Loads Riot champion metadata once on startup
-    async function fetchChampionsMetadata() {
+    async function loadChampionsMetadata() {
+      const metadata = await getChampionMetaData();
 
-      // Get latest Data Dragon version
-      const versionsResponse = await fetch(
-        "https://ddragon.leagueoflegends.com/api/versions.json"
-      );
-
-      const versions = await versionsResponse.json();
-      const latest = versions[0];
-
-      setDdragonVersion(latest);
-
-      // Get champion metadata
-      const championsResponse = await fetch(
-        `https://ddragon.leagueoflegends.com/cdn/${latest}/data/en_US/champion.json`
-      );
-
-      const championsData = await championsResponse.json();
-      const nameMap: Record<number, string> = {};
-      const imageMap: Record<number, string> = {};
-
-      // Convert Riot data into quick lookup maps
-      for (const champ of Object.values(championsData.data) as {
-        key: string;
-        id: string;
-        name: string;
-      }[]) {
-        nameMap[Number(champ.key)] = champ.name;
-        imageMap[Number(champ.key)] = champ.id;
-      }
-
-      // Save metadata into React state
-      setChampionNames(nameMap);
-      setChampionImageIds(imageMap);
+      setDdragonVersion(metadata.version);
+      setChampionNames(metadata.championNames);
+      setChampionImageIds(metadata.championImageIds);
     }
-    fetchChampionsMetadata();
+    loadChampionsMetadata();
   }, []);
-
-  // =========================
-  // Helper Functions
-  // =========================
-  // Small reusable utility functions
-  function getChampionIconUrl(championId: number) {
-    const imageId = championImageIds[championId];
-    if (!imageId || !ddragonVersion) return null;
-    return `https://ddragon.leagueoflegends.com/cdn/${ddragonVersion}/img/champion/${imageId}.png`;
-  }
 
   // =========================
   // API Functions
@@ -197,9 +161,9 @@ export default function Home() {
         
         <section className={styles.ChampionListResults}>
             <ChampionList
-              champions={champions.slice(0, 5)}
+              champions={champions}
               championNames={championNames}
-              getChampionIconUrl={getChampionIconUrl} />
+              getChampionIconUrl={(championId) => getChampionIconUrl(ddragonVersion, championId, championImageIds)} />
         </section></>
       )}
 
