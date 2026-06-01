@@ -4,7 +4,7 @@
 import styles from "./page.module.css";
 
 // React
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // Components
 import ChampionList from "@/components/ChampionList";
@@ -14,7 +14,8 @@ import SummonerCard from "@/components/SummonerCard";
 import { Champion } from "@/types/champion";
 import { Summoner } from "@/types/summoner";
 
-import { getChampionMetaData, getChampionIconUrl} from "@/lib/ddragon";
+import { getChampionIconUrl } from "@/lib/ddragon";
+import { useChampionMetadata } from "@/hooks/useChampionMetadata";
 
 export default function Home() {
 
@@ -30,30 +31,7 @@ export default function Home() {
   const [error, setError] = useState("");
 
   // Riot Metadata
-  const [ddragonVersion, setDdragonVersion] = useState("");
-
-  const [championNames, setChampionNames] =
-    useState<Record<number, string>>({});
-
-  const [championImageIds, setChampionImageIds] =
-    useState<Record<number, string>>({});
-
-  // =========================
-  // Effects
-  // =========================
-  // Runs after component renders
-  useEffect(() => {
-
-    // Loads Riot champion metadata once on startup
-    async function loadChampionsMetadata() {
-      const metadata = await getChampionMetaData();
-
-      setDdragonVersion(metadata.version);
-      setChampionNames(metadata.championNames);
-      setChampionImageIds(metadata.championImageIds);
-    }
-    loadChampionsMetadata();
-  }, []);
+  const { ddragonVersion, championNames, championImageIds, loading: metadataLoading } = useChampionMetadata();
 
   // =========================
   // API Functions
