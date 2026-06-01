@@ -6,16 +6,16 @@ export async function getLatestDdragonVersion(): Promise<string> {
     return data[0];
 }
 
-export async function getChampionData(version: string) {
-    const response = await fetch(`https://${DATA_DRAGON_ROUTING}/cdn/${version}/data/en_US/champion.json`);
+export async function getChampionData(ddragonVersion: string) {
+    const response = await fetch(`https://${DATA_DRAGON_ROUTING}/cdn/${ddragonVersion}/data/en_US/champion.json`);
     const data = await response.json();
     return data.data;
 }
 
 export async function getChampionMetaData() {
-    const version = await getLatestDdragonVersion();
-    const championData = await getChampionData(version);
-    
+    const ddragonVersion = await getLatestDdragonVersion();
+    const championData = await getChampionData(ddragonVersion);
+
     const championNames: Record<number, string> = {};
     const championImageIds: Record<number, string> = {};
 
@@ -29,17 +29,20 @@ export async function getChampionMetaData() {
     }
 
     return {
-        version,
+        ddragonVersion,
         championNames,
         championImageIds,
     };
 }
 
 export function getChampionIconUrl(
-    version: string,
-    championImageId: string
-): string {
-    return `https://${DATA_DRAGON_ROUTING}/cdn/${version}/img/champion/${championImageId}.png`;
+    ddragonVersion: string,
+    championId: number,
+    championImageIds: Record<number, string>
+): string | null{
+    const championImageId = championImageIds[championId];
+    if (!championImageId) {
+        return null;
+    }
+    return `https://${DATA_DRAGON_ROUTING}/cdn/${ddragonVersion}/img/champion/${championImageId}.png`;
 }
-
-

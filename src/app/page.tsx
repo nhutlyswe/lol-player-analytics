@@ -4,7 +4,7 @@
 import styles from "./page.module.css";
 
 // React
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // Components
 import ChampionList from "@/components/ChampionList";
@@ -13,6 +13,9 @@ import SummonerCard from "@/components/SummonerCard";
 // Types
 import { Champion } from "@/types/champion";
 import { Summoner } from "@/types/summoner";
+
+import { getChampionIconUrl } from "@/lib/ddragon";
+import { useChampionMetadata } from "@/hooks/useChampionMetadata";
 
 export default function Home() {
 
@@ -28,68 +31,7 @@ export default function Home() {
   const [error, setError] = useState("");
 
   // Riot Metadata
-  const [ddragonVersion, setDdragonVersion] = useState("");
-
-  const [championNames, setChampionNames] =
-    useState<Record<number, string>>({});
-
-  const [championImageIds, setChampionImageIds] =
-    useState<Record<number, string>>({});
-
-  // =========================
-  // Effects
-  // =========================
-  // Runs after component renders
-  useEffect(() => {
-
-    // Loads Riot champion metadata once on startup
-    async function fetchChampionsMetadata() {
-
-      // Get latest Data Dragon version
-      const versionsResponse = await fetch(
-        "https://ddragon.leagueoflegends.com/api/versions.json"
-      );
-
-      const versions = await versionsResponse.json();
-      const latest = versions[0];
-
-      setDdragonVersion(latest);
-
-      // Get champion metadata
-      const championsResponse = await fetch(
-        `https://ddragon.leagueoflegends.com/cdn/${latest}/data/en_US/champion.json`
-      );
-
-      const championsData = await championsResponse.json();
-      const nameMap: Record<number, string> = {};
-      const imageMap: Record<number, string> = {};
-
-      // Convert Riot data into quick lookup maps
-      for (const champ of Object.values(championsData.data) as {
-        key: string;
-        id: string;
-        name: string;
-      }[]) {
-        nameMap[Number(champ.key)] = champ.name;
-        imageMap[Number(champ.key)] = champ.id;
-      }
-
-      // Save metadata into React state
-      setChampionNames(nameMap);
-      setChampionImageIds(imageMap);
-    }
-    fetchChampionsMetadata();
-  }, []);
-
-  // =========================
-  // Helper Functions
-  // =========================
-  // Small reusable utility functions
-  function getChampionIconUrl(championId: number) {
-    const imageId = championImageIds[championId];
-    if (!imageId || !ddragonVersion) return null;
-    return `https://ddragon.leagueoflegends.com/cdn/${ddragonVersion}/img/champion/${imageId}.png`;
-  }
+  const { ddragonVersion, championNames, championImageIds, loading: metadataLoading } = useChampionMetadata();
 
   // =========================
   // API Functions
@@ -197,9 +139,9 @@ export default function Home() {
         
         <section className={styles.ChampionListResults}>
             <ChampionList
-              champions={champions.slice(0, 5)}
+              champions={champions}
               championNames={championNames}
-              getChampionIconUrl={getChampionIconUrl} />
+              getChampionIconUrl={(championId) => getChampionIconUrl(ddragonVersion, championId, championImageIds)} />
         </section></>
       )}
 
