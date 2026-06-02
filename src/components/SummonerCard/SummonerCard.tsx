@@ -1,4 +1,5 @@
 import { Summoner } from "@/types/summoner";
+import styles from "./SummonerCard.module.css";
 
 type Props = {
     summoner: Summoner;
@@ -8,7 +9,7 @@ export default function SummonerCard({
     summoner
 }: Props) {
     return (
-        <section>
+        <section className={styles.summonerCardResults}>
             <h2>Summoner Preview</h2>
             <p>
                 <strong>Name:</strong>{" "}

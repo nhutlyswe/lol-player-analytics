@@ -1,4 +1,5 @@
 import { Champion } from "@/types/champion";
+import styles from "./ChampionList.module.css";
 
 type Props = {
     champions: Champion[];
@@ -16,7 +17,7 @@ export default function ChampionList({
     }
 
     return (
-        <section>
+        <section className={styles.ChampionListResults}>
             <h3>Top Champions</h3>
             <ul>
                 {champions.map((champion) => {
