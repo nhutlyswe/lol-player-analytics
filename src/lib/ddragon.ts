@@ -15,7 +15,6 @@ export async function getChampionData(ddragonVersion: string) {
 export async function getChampionMetaData() {
     const ddragonVersion = await getLatestDdragonVersion();
     const championData = await getChampionData(ddragonVersion);
-
     const championNames: Record<number, string> = {};
     const championImageIds: Record<number, string> = {};
 
