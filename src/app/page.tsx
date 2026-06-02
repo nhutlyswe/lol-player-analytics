@@ -7,8 +7,8 @@ import styles from "./page.module.css";
 import { useState } from "react";
 
 // Components
-import ChampionList from "@/components/ChampionList";
-import SummonerCard from "@/components/SummonerCard";
+import ChampionList from "@/components/ChampionList/ChampionList";
+import SummonerCard from "@/components/SummonerCard/SummonerCard";
 import SearchBar from "@/components/SearchBar/SearchBar";
 
 // Types
@@ -118,10 +118,10 @@ export default function Home() {
     
       {/* Results */}
       {summoner && (
-        <><section className={styles.summonerCardResults}>
+        <><section>
           <SummonerCard summoner={summoner} />
         </section>
-        <section className={styles.ChampionListResults}>
+        <section>
             <ChampionList
               champions={champions}
               championNames={championNames}

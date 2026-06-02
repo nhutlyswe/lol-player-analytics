@@ -1,0 +1,9 @@
+.summonerCardResults {
+    border: 1px solid #c89b3c;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 24px;
+    background-color: #0A1428;
+    font-family: Georgia, serif;
+    font-weight: 400;
+}

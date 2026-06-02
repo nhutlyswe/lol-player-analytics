@@ -15,23 +15,3 @@
     letter-spacing: clamp(1px, 0.2vw, 2px);
     text-transform: uppercase;
 }
-
-.summonerCardResults {
-    border: 1px solid #c89b3c;
-    border-radius: 8px;
-    padding: 24px;
-    margin-top: 24px;
-    background-color: #0A1428;
-    font-family: Georgia, serif;
-    font-weight: 400;
-}
-
-.ChampionListResults {
-    border: 1px solid #c89b3c;
-    border-radius: 8px;
-    padding: 24px;
-    margin-top: 24px;
-    background-color: #0A1428;
-    font-family: Georgia, serif;
-    font-weight: 400;
-}
