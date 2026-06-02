@@ -9,6 +9,7 @@ import { useState } from "react";
 // Components
 import ChampionList from "@/components/ChampionList";
 import SummonerCard from "@/components/SummonerCard";
+import SearchBar from "@/components/SearchBar/SearchBar";
 
 // Types
 import { Champion } from "@/types/champion";
@@ -20,8 +21,10 @@ import { useChampionMetadata } from "@/hooks/useChampionMetadata";
 export default function Home() {
 
   // Search State
-  const [summonerInput, setSummonerInput] = useState("");
   const [summoner, setSummoner] = useState<Summoner | null>(null);
+
+  const [gameName, setGameName] = useState("");
+  const [tagLine, setTagLine] = useState("");
 
   // Champion Data
   const [champions, setChampions] = useState<Champion[]>([]);
@@ -76,26 +79,14 @@ export default function Home() {
   // Event Handlers
   // =========================
   // Functions triggered by user actions
-  function handleSubmit(
-    event: React.FormEvent<HTMLFormElement>
-  ) {
-    event.preventDefault();
-
-    const trimmed = summonerInput.trim();
-    const [gameName, tagLine] = trimmed.split("#");
-
-    // Validate input format
-    if (!gameName || !tagLine) {
-      setError(
-        "Please enter a valid summoner name in the format 'Name#TagLine'"
-      );
-      setSummoner(null);
-      setChampions([]);
+  function handleSearchSubmit() {
+    const trimmedGameName = gameName.trim();
+    const trimmedTagLine = tagLine.trim();
+    if (!trimmedGameName || !trimmedTagLine) {
+      setError("Please enter a valid summoner name and tag line");
       return;
     }
-
-    // Fetch Riot data
-    fetchSummonerData(gameName, tagLine);
+    fetchSummonerData(trimmedGameName, trimmedTagLine);
   }
 
   // =========================
@@ -103,23 +94,17 @@ export default function Home() {
   // =========================
   return (
     <main className={styles.page}>
-
       <h1 className={styles.pageTitle}>Summoner Scout</h1>
-
       {/* Search Form */}
-      <form onSubmit={handleSubmit} className={styles.searchForm}>
-        <input
-          value={summonerInput}
-          onChange={(event) =>
-            setSummonerInput(event.target.value)
-          }
-          placeholder="Enter summoner as gameName#tagLine"
-          className={styles.searchInput}
+      <section className={styles.searchSection}>
+        <SearchBar
+          gameName={gameName}
+          tagLine={tagLine}
+          onGameNameChange={setGameName}
+          onTagLineChange={setTagLine}
+          onSubmit={handleSearchSubmit}
         />
-        <button type="submit" className={styles.searchButton}>
-          Search
-        </button>
-      </form>
+      </section>
 
       {/* Loading State */}
       {loading && <p>Loading...</p>}
@@ -136,7 +121,6 @@ export default function Home() {
         <><section className={styles.summonerCardResults}>
           <SummonerCard summoner={summoner} />
         </section>
-        
         <section className={styles.ChampionListResults}>
             <ChampionList
               champions={champions}
@@ -144,7 +128,6 @@ export default function Home() {
               getChampionIconUrl={(championId) => getChampionIconUrl(ddragonVersion, championId, championImageIds)} />
         </section></>
       )}
-
     </main>
   );
 }
