@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getAccountByRiotId, getChampionMasteryByPuuid, getRankSoloByPuuid } from '@/lib/riot';
+import { getAccountByRiotId, getChampionMasteryByPuuid, getRankFlexByPuuid, getRankSoloByPuuid, getRankSoloWinrateByPuuid, getRolesInfoFromRankSoloRecentMatches } from '@/lib/riot';
 
 function mapRiotError(status: number, resource: string) {
     switch (status) {
@@ -30,6 +30,10 @@ export async function GET(request: Request) {
         const puuid = account.puuid;
         const championMastery = await getChampionMasteryByPuuid(puuid);
         const rankSolo = await getRankSoloByPuuid(puuid);
+        const rankFlex = await getRankFlexByPuuid(puuid);
+        const winrateSolo = await getRankSoloWinrateByPuuid(puuid);
+        const winrateFlex = await getRankSoloWinrateByPuuid(puuid);
+        const roleCounts = await getRolesInfoFromRankSoloRecentMatches(puuid, 20);
 
         return NextResponse.json({ 
             summoner: {
@@ -37,6 +41,10 @@ export async function GET(request: Request) {
                 tagLine: account.tagLine,
                 puuid: account.puuid,
                 rankSolo: rankSolo ?? "UNRANKED",
+                rankFlex: rankFlex ?? "UNRANKED",
+                winrateSolo: winrateSolo ?? "N/A",
+                winrateFlex: winrateFlex ?? "N/A",
+                roleCounts: roleCounts ?? {},
             },
             champions: championMastery,
         });

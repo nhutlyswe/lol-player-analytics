@@ -15,6 +15,7 @@ import SearchBar from "@/components/SearchBar/SearchBar";
 import { Champion } from "@/types/champion";
 import { Summoner } from "@/types/summoner";
 
+// Utils
 import { getChampionIconUrl } from "@/lib/ddragon";
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
 
