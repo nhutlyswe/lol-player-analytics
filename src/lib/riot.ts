@@ -44,5 +44,45 @@ export async function getRankSoloByPuuid(puuid: string) {
         `https://${PLATFORM_ROUTING}/lol/league/v4/entries/by-puuid/${encodeURIComponent(puuid)}`
     );
     const solo = data.find((entry: any) => entry.queueType === "RANKED_SOLO_5x5");
-    return solo ? `${solo.tier} ${solo.rank}` : "UNRANKED";
+    return solo ? `${solo.tier} ${solo.rank} - ${solo.leaguePoints} LP` : "UNRANKED";
+}
+
+export async function getRankFlexByPuuid(puuid: string) {
+    const data = await riotFetch(
+        `https://${PLATFORM_ROUTING}/lol/league/v4/entries/by-puuid/${encodeURIComponent(puuid)}`
+    );
+    const flex = data.find((entry: any) => entry.queueType === "RANKED_FLEX_SR");
+    return flex ? `${flex.tier} ${flex.rank} - ${flex.leaguePoints} LP` : "UNRANKED";
+}
+
+export async function getRankSoloWinrateByPuuid(puuid: string) {
+    const data = await riotFetch(
+        `https://${PLATFORM_ROUTING}/lol/league/v4/entries/by-puuid/${encodeURIComponent(puuid)}`
+    );
+    const winrate = data.find((entry: any) => entry.queueType === "RANKED_SOLO_5x5");
+    
+    if (!winrate) {
+        return "N/A";
+    }
+
+    const totalGames = winrate.wins + winrate.losses;
+    const winRatePercent = ((winrate.wins / totalGames) * 100).toFixed(1);
+
+    return `${winrate.wins}/${winrate.losses} (${winRatePercent}%)`;
+}
+
+export async function getRankFlexWinrateByPuuid(puuid: string) {
+    const data = await riotFetch(
+        `https://${PLATFORM_ROUTING}/lol/league/v4/entries/by-puuid/${encodeURIComponent(puuid)}`
+    );
+    const winrate = data.find((entry: any) => entry.queueType === "RANKED_FLEX_SR");
+
+    if (!winrate) {
+        return "N/A";
+    }
+
+    const totalGames = winrate.wins + winrate.losses;
+    const winRatePercent = ((winrate.wins / totalGames) * 100).toFixed(1);
+
+    return `${winrate.wins}/${winrate.losses} (${winRatePercent}%)`;
 }

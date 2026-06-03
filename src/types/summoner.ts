@@ -5,4 +5,10 @@ export interface Summoner{
     tagLine: string;
     puuid: string;
     rankSolo: string;
+    rankFlex: string;
+    winrateSolo: number;
+    winrateFlex: number;
+    mainRole: string;
+    secondaryRole: string;
+    championPool: Champion[];
 }
