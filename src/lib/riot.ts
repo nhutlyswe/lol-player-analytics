@@ -13,6 +13,7 @@ async function riotFetch(url: string): Promise<any> {
     });
 
     if (!response.ok) {
+        console.log(await response.text());
         throw new Error(
             `Riot API request failed: ${response.status} ${response.statusText}`
         );
@@ -85,4 +86,61 @@ export async function getRankFlexWinrateByPuuid(puuid: string) {
     const winRatePercent = ((winrate.wins / totalGames) * 100).toFixed(1);
 
     return `${winrate.wins}/${winrate.losses} (${winRatePercent}%)`;
+}
+
+export async function getRecentRankSoloMatchesByPuuid(puuid: string, count: number = 20): Promise<string[]> {
+    const data = await riotFetch(
+        `https://${REGION_ROUTING}/lol/match/v5/matches/by-puuid/${encodeURIComponent(puuid)}/ids?queue=420&count=${count}`
+    );
+    return data;
+}
+
+export async function getMatchInfoById(matchId: string) {
+    const data = await riotFetch(
+        `https://${REGION_ROUTING}/lol/match/v5/matches/${encodeURIComponent(matchId)}`
+    );
+    return data;
+}
+
+export async function getRolesInfoFromRankSoloRecentMatches(
+    puuid: string,
+    count: number = 20
+) {
+    const matchIds = await getRecentRankSoloMatchesByPuuid(puuid, count);
+
+    const roleCounts: Record<string, number> = {
+        TOP: 0,
+        JUNGLE: 0,
+        MIDDLE: 0,
+        BOTTOM: 0,
+        UTILITY: 0,
+        UNKNOWN: 0,
+    };
+
+    const BATCH_SIZE = 10;
+
+    for (let i = 0; i < matchIds.length; i += BATCH_SIZE) {
+        const batch = matchIds.slice(i, i + BATCH_SIZE);
+        const matches = await Promise.all(
+            batch.map(matchId => getMatchInfoById(matchId))
+        );
+
+        for (const matchInfo of matches) {
+            const participant = matchInfo.info.participants.find(
+                (p: any) => p.puuid === puuid
+            );
+
+            if (!participant) { continue;}
+
+            const role = participant.teamPosition || "UNKNOWN";
+
+            if (roleCounts[role] !== undefined) {
+                roleCounts[role]++;
+            } else {
+                roleCounts.UNKNOWN++;
+            }
+        }
+    }
+
+    return roleCounts;
 }

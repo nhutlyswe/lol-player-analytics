@@ -8,7 +8,6 @@ export interface Summoner{
     rankFlex: string;
     winrateSolo: number;
     winrateFlex: number;
-    mainRole: string;
-    secondaryRole: string;
+    roleCounts: Record<string, number>;
     championPool: Champion[];
 }

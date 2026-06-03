@@ -12,6 +12,10 @@ export default function SummonerCard({
     const summonerName = `${summoner.gameName}#${summoner.tagLine}`;
     const soloQueueInfo = `${summoner.rankSolo} | Win Rate: ${summoner.winrateSolo}`;
     const flexQueueInfo = `${summoner.rankFlex} | Win Rate: ${summoner.winrateFlex}`;
+    const roleInfo = Object.entries(summoner.roleCounts)
+        .filter(([_, count]) => count > 0)
+        .map(([role, count]) => `${role} (${count})`)
+        .join(", ") || "N/A";
 
     return (
         <section className={styles.summonerCardResults}>
@@ -29,6 +33,11 @@ export default function SummonerCard({
             <p>
                 <strong>Flex:</strong>{" "}
                 {flexQueueInfo}
+            </p>
+
+            <p>
+                <strong>Most Played Roles (Last 20 Games):</strong>{" "}
+                {roleInfo}
             </p>
         </section>
     )
