@@ -31,7 +31,7 @@ export async function GET(request: Request) {
         
         const [championMastery, roleCounts, rankInfo] = await Promise.all([
             getChampionMasteryByPuuid(puuid),
-            getRolesInfoFromRankSoloRecentMatches(puuid, 20),
+            getRolesInfoFromRankSoloRecentMatches(puuid, 5),
             getRankInfoByPuuid(puuid),
         ]);
 
