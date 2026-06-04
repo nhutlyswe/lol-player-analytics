@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getAccountByRiotId, getChampionMasteryByPuuid, getRankFlexByPuuid, getRankSoloByPuuid, getRankSoloWinrateByPuuid, getRolesInfoFromRankSoloRecentMatches } from '@/lib/riot';
+import { getAccountByRiotId, getChampionMasteryByPuuid, getRankFlexByPuuid, getRankFlexWinrateByPuuid, getRankSoloByPuuid, getRankSoloWinrateByPuuid, getRolesInfoFromRankSoloRecentMatches, getLeagueEntriesByPuuid, getRankInfoByPuuid } from '@/lib/riot';
 
 function mapRiotError(status: number, resource: string) {
     switch (status) {
@@ -28,22 +28,23 @@ export async function GET(request: Request) {
     try {
         const account = await getAccountByRiotId(gameName, tagLine);
         const puuid = account.puuid;
-        const championMastery = await getChampionMasteryByPuuid(puuid);
-        const rankSolo = await getRankSoloByPuuid(puuid);
-        const rankFlex = await getRankFlexByPuuid(puuid);
-        const winrateSolo = await getRankSoloWinrateByPuuid(puuid);
-        const winrateFlex = await getRankSoloWinrateByPuuid(puuid);
-        const roleCounts = await getRolesInfoFromRankSoloRecentMatches(puuid, 20);
+        
+        const [championMastery, roleCounts, rankInfo] = await Promise.all([
+            getChampionMasteryByPuuid(puuid),
+            getRolesInfoFromRankSoloRecentMatches(puuid, 5),
+            getRankInfoByPuuid(puuid),
+        ]);
+
 
         return NextResponse.json({ 
             summoner: {
                 gameName: account.gameName,
                 tagLine: account.tagLine,
                 puuid: account.puuid,
-                rankSolo: rankSolo ?? "UNRANKED",
-                rankFlex: rankFlex ?? "UNRANKED",
-                winrateSolo: winrateSolo ?? "N/A",
-                winrateFlex: winrateFlex ?? "N/A",
+                rankSolo: rankInfo.solo,
+                rankFlex: rankInfo.flex,
+                winrateSolo: rankInfo.winrateSolo,
+                winrateFlex: rankInfo.winrateFlex,
                 roleCounts: roleCounts ?? {},
             },
             champions: championMastery,
