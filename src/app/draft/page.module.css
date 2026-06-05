@@ -1,0 +1,17 @@
+.page {
+    max-width: 10000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.pageTitle {
+    font-family: Georgia, serif;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 700;
+    text-align: center;
+    color: #C89B3C;
+    margin-bottom: clamp(1rem, 3vw, 2rem);
+    letter-spacing: clamp(1px, 0.2vw, 2px);
+    text-transform: uppercase;
+}
