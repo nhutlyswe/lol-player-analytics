@@ -4,17 +4,13 @@ import RoleSlot from "./RoleSlot";
 type Props = {
     teamSide: TeamSide;
     draft: TeamDraft;
-    updateDraft: (
-        team: TeamSide,
-        role: Role,
-        champion: string | null
-    ) => void;
+    onSelectSlot: (team: TeamSide, role: Role) => void;
 };
 
 export default function TeamColumn({
     teamSide,
     draft,
-    updateDraft
+    onSelectSlot
 }: Props) {
 
     const roles: Role[] = ["top", "jungle", "mid", "adc", "support"];
@@ -28,9 +24,7 @@ export default function TeamColumn({
                     key = {role}
                     role = {role}
                     champion={draft[role]}
-                    onClick={() =>
-                        updateDraft(teamSide, role, "Ahri")
-                    }
+                    onClick={() => onSelectSlot(teamSide, role)}
                 />
             ))}
         </div>
