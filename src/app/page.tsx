@@ -7,23 +7,22 @@ import styles from "./page.module.css";
 import { useState } from "react";
 
 // Components
-import ChampionList from "@/components/ChampionList/ChampionList";
-import SummonerCard from "@/components/SummonerCard/SummonerCard";
 import SearchBar from "@/components/SearchBar/SearchBar";
+import SummonerCard from "@/components/SummonerCard/SummonerCard";
+import ChampionList from "@/components/ChampionList/ChampionList";
 
 // Types
-import { Champion } from "@/types/champion";
 import { Summoner } from "@/types/summoner";
+import { Champion } from "@/types/champion";
 
 // Utils
-import { getChampionIconUrl } from "@/lib/ddragon";
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
+import { getChampionIconUrl } from "@/lib/ddragon";
 
 export default function Home() {
 
   // Search State
   const [summoner, setSummoner] = useState<Summoner | null>(null);
-
   const [gameName, setGameName] = useState("");
   const [tagLine, setTagLine] = useState("");
 
