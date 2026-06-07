@@ -1,0 +1,62 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+/* Team header (Blue / Red) */
+.header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+/* Role slot container */
+.slot {
+    padding: 12px;
+    border-radius: 10px;
+    background: #1e1e1e;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+/* Hover effect */
+.slot:hover {
+    transform: translateY(-2px);
+    background: #2a2a2a;
+}
+
+/* Role label (Top, Jungle, etc.) */
+.role {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Champion name */
+.champion {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+/* Empty slot styling */
+.empty {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+/* ------------------ */
+/* Mobile adjustments */
+/* ------------------ */
+@media (max-width: 600px) {
+    .slot {
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 16px;
+    }
+}

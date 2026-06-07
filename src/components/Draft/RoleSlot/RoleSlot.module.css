@@ -1,0 +1,72 @@
+.slot {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 10px;
+    background: #1e1e1e;
+    color: white;
+    cursor: pointer;
+
+    transition: all 0.15s ease;
+    border: 1px solid transparent;
+}
+
+/* Hover effect */
+.slot:hover {
+    transform: translateY(-2px);
+    background: #2a2a2a;
+    border-color: #3a3a3a;
+}
+
+/* Role label (Top / Jungle etc.) */
+.role {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Champion name */
+.champion {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Empty slot */
+.empty {
+    font-style: italic;
+    opacity: 0.5;
+}
+
+/* Selected slot (when user clicks it) */
+.selected {
+    border-color: #4da3ff;
+    box-shadow: 0 0 0 2px rgba(77, 163, 255, 0.2);
+}
+
+/* Filled slot (champion picked) */
+.filled {
+    background: #232323;
+}
+
+/* Red team variant (optional visual hint) */
+.red {
+    border-left: 3px solid #ff4d4d;
+}
+
+/* Blue team variant (optional visual hint) */
+.blue {
+    border-left: 3px solid #4da3ff;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+    .slot {
+        padding: 10px;
+    }
+
+    .champion {
+        font-size: 13px;
+    }
+}
