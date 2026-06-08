@@ -6,12 +6,14 @@ type Props = {
     teamSide: TeamSide;
     draft: TeamDraft;
     onSelectSlot: (team: TeamSide, role: Role) => void;
+    getChampionIconUrl: (champion: string | null) => string | null;
 };
 
 export default function TeamColumn({
     teamSide,
     draft,
-    onSelectSlot
+    onSelectSlot,
+    getChampionIconUrl
 }: Props) {
 
     const roles: Role[] = ["top", "jungle", "mid", "adc", "support"];
@@ -32,6 +34,7 @@ export default function TeamColumn({
                         key={role}
                         role={role}
                         champion={draft[role]}
+                        championIconUrl={getChampionIconUrl(draft[role])}
                         onClick={() => onSelectSlot(teamSide, role)}
                     />
                 ))}

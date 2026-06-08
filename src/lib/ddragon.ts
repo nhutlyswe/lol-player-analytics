@@ -17,20 +17,24 @@ export async function getChampionMetaData() {
     const championData = await getChampionData(ddragonVersion);
     const championNames: Record<number, string> = {};
     const championImageIds: Record<number, string> = {};
+    const championImageIdsByName: Record<string, string> = {};
 
     for (const champ of Object.values(championData) as {
         key: string;
         id: string;
         name: string;
     }[]) {
-        championNames[Number(champ.key)] = champ.name;
-        championImageIds[Number(champ.key)] = champ.id;
+        const championKey = Number(champ.key);
+        championNames[championKey] = champ.name;
+        championImageIds[championKey] = champ.id;
+        championImageIdsByName[champ.name] = champ.id;
     }
 
     return {
         ddragonVersion,
         championNames,
         championImageIds,
+        championImageIdsByName,
     };
 }
 
@@ -38,8 +42,20 @@ export function getChampionIconUrl(
     ddragonVersion: string,
     championId: number,
     championImageIds: Record<number, string>
-): string | null{
+): string | null {
     const championImageId = championImageIds[championId];
+    if (!championImageId) {
+        return null;
+    }
+    return `https://${DATA_DRAGON_ROUTING}/cdn/${ddragonVersion}/img/champion/${championImageId}.png`;
+}
+
+export function getChampionIconUrlByName(
+    ddragonVersion: string,
+    championName: string,
+    championImageIdsByName: Record<string, string>
+): string | null {
+    const championImageId = championImageIdsByName[championName];
     if (!championImageId) {
         return null;
     }

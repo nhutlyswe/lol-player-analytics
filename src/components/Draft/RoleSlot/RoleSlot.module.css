@@ -67,6 +67,21 @@
     font-size: 13px;
 }
 
+.championContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.championIcon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.04);
+}
+
 /* Selected slot (when user clicks it) */
 .selected {
     border-color: #64b5f6;
@@ -76,8 +91,19 @@
 
 /* Filled slot (champion picked) */
 .filled {
-    background: linear-gradient(135deg, #2a2a2a 0%, #323232 100%);
-    border-color: rgba(255, 255, 255, 0.12);
+    background: linear-gradient(135deg, rgba(100, 181, 246, 0.18) 0%, rgba(33, 150, 243, 0.08) 100%);
+    border-color: rgba(100, 181, 246, 0.5);
+    box-shadow: 0 0 18px rgba(100, 181, 246, 0.25), inset 0 0 12px rgba(100, 181, 246, 0.12);
+}
+
+.filled .champion {
+    color: #e3f2fd;
+    text-shadow: 0 0 6px rgba(100, 181, 246, 0.7);
+}
+
+.filled .role {
+    color: #90caf9;
+    opacity: 0.9;
 }
 
 /* Red team variant */
