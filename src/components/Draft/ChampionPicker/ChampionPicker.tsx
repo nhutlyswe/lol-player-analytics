@@ -54,13 +54,16 @@ export default function ChampionPicker({ onSelect }: Props) {
                             onClick={() => onSelect(championName)}
                         >
                             {iconUrl ? (
-                                <img
-                                    src={iconUrl}
-                                    alt={championName}
-                                    className={styles.championIcon}
-                                />
+                                <>
+                                    <img
+                                        src={iconUrl}
+                                        alt={championName}
+                                        className={styles.championIcon}
+                                    />
+                                    <span className={styles.championName}>{championName}</span>
+                                </>
                             ) : (
-                                <span>{championName}</span>
+                                <span className={styles.championName}>{championName}</span>
                             )}
                         </button>
                     );
