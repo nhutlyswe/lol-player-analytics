@@ -1,4 +1,4 @@
-export interface Champion {
+export interface ChampionMastery {
     championId: number;
     championPoints: number;
 }
@@ -9,3 +9,10 @@ export interface ChampionStats {
     winRate: number;
     kda: number;
 }
+
+export interface ChampionInfo {
+    id: string;
+    name: string;
+    image: string;
+}
+

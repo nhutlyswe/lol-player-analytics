@@ -13,7 +13,7 @@ import ChampionList from "@/components/ChampionList/ChampionList";
 
 // Types
 import { Summoner } from "@/types/summoner";
-import { Champion } from "@/types/champion";
+import { ChampionMastery } from "@/types/champion";
 
 // Utils
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
@@ -27,7 +27,7 @@ export default function Home() {
   const [tagLine, setTagLine] = useState("");
 
   // Champion Data
-  const [champions, setChampions] = useState<Champion[]>([]);
+  const [champions, setChampions] = useState<ChampionMastery[]>([]);
 
   // UI State
   const [loading, setLoading] = useState(false);
@@ -123,7 +123,7 @@ export default function Home() {
         </section>
         <section>
             <ChampionList
-              champions={champions}
+              championMasteries={champions}
               championNames={championNames}
               getChampionIconUrl={(championId) => getChampionIconUrl(ddragonVersion, championId, championImageIds)} />
         </section></>

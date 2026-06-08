@@ -1,18 +1,18 @@
-import { Champion } from "@/types/champion";
+import { ChampionMastery } from "@/types/champion";
 import styles from "./ChampionList.module.css";
 
 type Props = {
-    champions: Champion[];
+    championMasteries: ChampionMastery[];
     championNames: Record<number, string>;
     getChampionIconUrl: (championId: number) => string | null;
 }
 
 export default function ChampionList({
-    champions,
+    championMasteries,
     championNames,
     getChampionIconUrl,
 }: Props) {
-    if (champions.length === 0) {
+    if (championMasteries.length === 0) {
         return null;
     }
 
@@ -20,14 +20,14 @@ export default function ChampionList({
         <section className={styles.ChampionListResults}>
             <h3>Top Champions</h3>
             <ul>
-                {champions.map((champion) => {
-                    const name = championNames[champion.championId] ?? `Unknown (${champion.championId})`;
-                    const iconUrl = getChampionIconUrl(champion.championId);
+                {championMasteries.map((championMastery) => {
+                    const name = championNames[championMastery.championId] ?? `Unknown (${championMastery.championId})`;
+                    const iconUrl = getChampionIconUrl(championMastery.championId);
 
                     return (
-                        <li key={champion.championId} style={{ display: "flex", alignItems: "center", marginBottom: "8px" }}>
+                        <li key={championMastery.championId} style={{ display: "flex", alignItems: "center", marginBottom: "8px" }}>
                             {iconUrl && (<img src={iconUrl} alt={name} width={48} height={48} style={{ marginRight: "8px" }} />)}
-                            <span>{name} - Points: {champion.championPoints}</span>
+                            <span>{name} - Points: {championMastery.championPoints}</span>
                         </li>
                     )
                 })}
