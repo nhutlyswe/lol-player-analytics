@@ -1,0 +1,97 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+/* Team header (Blue / Red) */
+.header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+/* Team title */
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.blue {
+    background: linear-gradient(135deg, rgba(65, 105, 225, 0.2) 0%, rgba(30, 144, 255, 0.15) 100%);
+    color: #64b5f6;
+    border: 2px solid rgba(65, 105, 225, 0.4);
+}
+
+.blue:hover {
+    background: linear-gradient(135deg, rgba(65, 105, 225, 0.3) 0%, rgba(30, 144, 255, 0.25) 100%);
+    border-color: rgba(65, 105, 225, 0.6);
+}
+
+.red {
+    background: linear-gradient(135deg, rgba(255, 69, 0, 0.2) 0%, rgba(220, 20, 60, 0.15) 100%);
+    color: #ff7070;
+    border: 2px solid rgba(255, 69, 0, 0.4);
+}
+
+.red:hover {
+    background: linear-gradient(135deg, rgba(255, 69, 0, 0.3) 0%, rgba(220, 20, 60, 0.25) 100%);
+    border-color: rgba(255, 69, 0, 0.6);
+}
+
+/* Role slot container */
+.slot {
+    padding: 12px;
+    border-radius: 10px;
+    background: #1e1e1e;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+/* Hover effect */
+.slot:hover {
+    transform: translateY(-2px);
+    background: #2a2a2a;
+}
+
+/* Role label (Top, Jungle, etc.) */
+.role {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Champion name */
+.champion {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+/* Empty slot styling */
+.empty {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+/* ------------------ */
+/* Mobile adjustments */
+/* ------------------ */
+@media (max-width: 600px) {
+    .slot {
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 16px;
+    }
+}
