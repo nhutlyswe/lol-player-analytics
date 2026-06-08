@@ -1,72 +1,116 @@
 .slot {
     display: flex;
     flex-direction: column;
-    padding: 12px;
+    padding: 14px;
     border-radius: 10px;
-    background: #1e1e1e;
+    background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
     color: white;
     cursor: pointer;
-
-    transition: all 0.15s ease;
-    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
 }
 
 /* Hover effect */
 .slot:hover {
-    transform: translateY(-2px);
-    background: #2a2a2a;
-    border-color: #3a3a3a;
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #242424 0%, #323232 100%);
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.slot:hover::before {
+    opacity: 1;
+}
+
+.slot::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+    opacity: 0;
+    transition: left 0.5s ease, opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.slot:hover::before {
+    left: 100%;
 }
 
 /* Role label (Top / Jungle etc.) */
 .role {
-    font-size: 12px;
-    opacity: 0.7;
-    margin-bottom: 4px;
+    font-size: 11px;
+    opacity: 0.6;
+    margin-bottom: 6px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    color: #b0b0b0;
 }
 
 /* Champion name */
 .champion {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
 }
 
 /* Empty slot */
 .empty {
     font-style: italic;
     opacity: 0.5;
+    font-size: 13px;
 }
 
 /* Selected slot (when user clicks it) */
 .selected {
-    border-color: #4da3ff;
-    box-shadow: 0 0 0 2px rgba(77, 163, 255, 0.2);
+    border-color: #64b5f6;
+    box-shadow: 0 0 12px rgba(100, 181, 246, 0.4), inset 0 0 8px rgba(100, 181, 246, 0.1);
+    background: linear-gradient(135deg, rgba(100, 181, 246, 0.15) 0%, rgba(100, 181, 246, 0.08) 100%);
 }
 
 /* Filled slot (champion picked) */
 .filled {
-    background: #232323;
+    background: linear-gradient(135deg, #2a2a2a 0%, #323232 100%);
+    border-color: rgba(255, 255, 255, 0.12);
 }
 
-/* Red team variant (optional visual hint) */
+/* Red team variant */
 .red {
-    border-left: 3px solid #ff4d4d;
+    border-left: 4px solid #ff6b6b;
 }
 
-/* Blue team variant (optional visual hint) */
+.red:hover {
+    border-left-color: #ff8787;
+    box-shadow: 0 4px 16px rgba(255, 107, 107, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Blue team variant */
 .blue {
-    border-left: 3px solid #4da3ff;
+    border-left: 4px solid #64b5f6;
+}
+
+.blue:hover {
+    border-left-color: #90caf9;
+    box-shadow: 0 4px 16px rgba(100, 181, 246, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 /* Mobile tweaks */
 @media (max-width: 600px) {
     .slot {
-        padding: 10px;
+        padding: 12px;
     }
 
     .champion {
-        font-size: 13px;
+        font-size: 14px;
+    }
+
+    .role {
+        font-size: 10px;
     }
 }

@@ -1,9 +1,11 @@
 .summonerCardResults {
-    border: 1px solid #c89b3c;
-    border-radius: 8px;
-    padding: 24px;
-    margin-top: 24px;
-    background-color: #0A1428;
+    border: 1px solid rgba(200, 155, 60, 0.3);
+    border-radius: 12px;
+    padding: 32px;
+    margin-top: 32px;
+    background: linear-gradient(135deg, rgba(15, 15, 35, 0.9) 0%, rgba(20, 20, 40, 0.95) 100%);
     font-family: Georgia, serif;
     font-weight: 400;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
 }

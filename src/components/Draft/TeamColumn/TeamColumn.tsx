@@ -23,7 +23,7 @@ export default function TeamColumn({
                     teamSide === "blue" ? styles.blue : styles.red
                 }`}
             >
-                {teamSide.toUpperCase()} TEAM
+                {teamSide.toUpperCase()}
             </h4>
 
             <div className={styles.slots}>
