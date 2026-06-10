@@ -44,6 +44,7 @@ export default function DraftBoard() {
                     <TeamColumn
                         teamSide="blue"
                         draft={draft.blue}
+                        selectedSlot={selectedSlot}
                         onSelectSlot={onSelectRole}
                         getChampionIconUrl={getChampionIconUrl}
                     />
@@ -51,15 +52,7 @@ export default function DraftBoard() {
 
                 {/* Center Picker */}
                 <div className={styles.center}>
-                    {selectedSlot && (
-                        <>
-                            <ChampionPicker onSelect={handleChampionSelect} />
-
-                            <p className={styles.selected}>
-                                Selected: {selectedSlot.team} - {selectedSlot.role}
-                            </p>
-                        </>
-                    )}
+                    <ChampionPicker onSelect={handleChampionSelect} />
                 </div>
 
                 {/* Red Team */}
@@ -67,6 +60,7 @@ export default function DraftBoard() {
                     <TeamColumn
                         teamSide="red"
                         draft={draft.red}
+                        selectedSlot={selectedSlot}
                         onSelectSlot={onSelectRole}
                         getChampionIconUrl={getChampionIconUrl}
                     />
