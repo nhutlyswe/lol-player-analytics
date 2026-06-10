@@ -5,6 +5,7 @@ type Props = {
     role: Role;
     champion: string | null;
     championIconUrl: string | null;
+    isSelected: boolean;
     onClick: () => void;
 };
 
@@ -12,6 +13,7 @@ export default function RoleSlot({
     role,
     champion,
     championIconUrl,
+    isSelected,
     onClick
 }: Props) {
 
@@ -19,7 +21,11 @@ export default function RoleSlot({
 
     return (
         <div
-            className={`${styles.slot} ${isEmpty ? "" : styles.filled}`}
+            className={`
+                ${styles.slot} 
+                ${isEmpty ? "" : styles.filled}
+                ${isSelected ? styles.selected: ""}
+            `}
             onClick={onClick}
         >
             <div className={styles.role}>

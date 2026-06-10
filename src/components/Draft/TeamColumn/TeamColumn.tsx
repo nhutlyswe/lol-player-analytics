@@ -5,6 +5,7 @@ import styles from "./TeamColumn.module.css";
 type Props = {
     teamSide: TeamSide;
     draft: TeamDraft;
+    selectedSlot: { team: TeamSide; role: Role } | null;
     onSelectSlot: (team: TeamSide, role: Role) => void;
     getChampionIconUrl: (champion: string | null) => string | null;
 };
@@ -12,6 +13,7 @@ type Props = {
 export default function TeamColumn({
     teamSide,
     draft,
+    selectedSlot,
     onSelectSlot,
     getChampionIconUrl
 }: Props) {
@@ -29,15 +31,22 @@ export default function TeamColumn({
             </h4>
 
             <div className={styles.slots}>
-                {roles.map((role) => (
-                    <RoleSlot
-                        key={role}
-                        role={role}
-                        champion={draft[role]}
-                        championIconUrl={getChampionIconUrl(draft[role])}
-                        onClick={() => onSelectSlot(teamSide, role)}
-                    />
-                ))}
+                {roles.map((role) => {
+                    const isSelected =
+                        selectedSlot?.team === teamSide &&
+                        selectedSlot?.role === role;
+
+                    return (
+                        <RoleSlot
+                            key={role}
+                            role={role}
+                            champion={draft[role]}
+                            championIconUrl={getChampionIconUrl(draft[role])}
+                            isSelected={isSelected}
+                            onClick={() => onSelectSlot(teamSide, role)}
+                        />
+                    );
+                })}
             </div>
         </div>
     );
