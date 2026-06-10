@@ -19,14 +19,19 @@ export default function DraftBoard() {
     } | null>(null);
 
     function onSelectRole(team: TeamSide, role: Role) {
-        setSelectedSlot({ team, role });
+        // Toggle: if clicking the same role, deselect it; otherwise select the new role
+        if (selectedSlot?.team === team && selectedSlot?.role === role) {
+            setSelectedSlot(null);
+        } else {
+            setSelectedSlot({ team, role });
+        }
     }
 
     function handleChampionSelect(champion: string) {
         if (!selectedSlot) return;
 
         updateDraft(selectedSlot.team, selectedSlot.role, champion);
-        setSelectedSlot(null);
+        // Keep the role selected so user can pick another champion for the same role
     }
 
     function getChampionIconUrl(champion: string | null) {
