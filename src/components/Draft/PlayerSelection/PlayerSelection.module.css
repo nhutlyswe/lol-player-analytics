@@ -1,0 +1,77 @@
+.card {
+    width: 100%;
+    max-width: 380px;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.container {
+    display: grid;
+    gap: 16px;
+}
+
+.fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 14px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: minmax(140px, 1fr) minmax(140px, 1fr) auto;
+    gap: 12px;
+    align-items: end;
+}
+
+.fieldGroup {
+    display: grid;
+    gap: 8px;
+}
+
+.legend {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f8f8ff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.label {
+    display: block;
+    font-size: 0.85rem;
+    color: #cfd8ff;
+}
+
+.select {
+    width: 100%;
+    min-height: 44px;
+    padding: 0 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(10, 14, 27, 0.95);
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.button {
+    width: 100%;
+    min-width: 140px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: linear-gradient(135deg, rgba(56, 106, 255, 0.9), rgba(255, 71, 95, 0.9));
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.button:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, rgba(81, 128, 255, 0.95), rgba(255, 95, 120, 0.95));
+}
