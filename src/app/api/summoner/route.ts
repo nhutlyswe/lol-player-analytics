@@ -1,14 +1,24 @@
 import { NextResponse } from 'next/server';
-import { getAccountByRiotId, getChampionMasteryByPuuid, getRankFlexByPuuid, getRankFlexWinrateByPuuid, getRankSoloByPuuid, getRankSoloWinrateByPuuid, getRolesInfoFromRankSoloRecentMatches, getLeagueEntriesByPuuid, getRankInfoByPuuid } from '@/lib/riot';
+import { getAccountByRiotId, getChampionMasteryByPuuid, getRolesInfoFromRankSoloRecentMatches, getRankInfoByPuuid } from '@/lib/riot';
 
 function mapRiotError(status: number, resource: string) {
     switch (status) {
-        case 404:
-            return { error: `${resource} not found. Check game name and tag line.`, status: 404 };
-        case 429:
-            return { error: 'Rate limit reached. Please try again in a moment.', status: 429 };
+        case 400:
+            return { error: 'Bad Request. There is a syntax error in the request and the request has therefore been denied.', status: 400 };
         case 401:
-            return { error: 'Unable to authenticate with Riot API.', status: 401 };
+            return { error: 'Unauthorized. The request being made did not contain the necessary authentication credentials (e.g., an API key) and therefore the client was denied access.', status: 401 };
+        case 403:
+            return { error: 'Forbidden. The server understood the request but refuses to authorize it.', status: 403 };
+        case 404:
+            return { error: `Not Found. The server has not found a match for the API request being made.`, status: 404 };
+        case 415:
+            return { error: `Unsupported Media Type. The server is refusing to service the request because the body of the request is in a format that is not supported.`, status: 415 };
+        case 429:
+            return { error: 'Rate Limit Exceeded. The application has exhausted its maximum number of allotted API calls allowed for a given duration.', status: 429 };
+        case 500:
+            return { error: 'Internal Server Error. An unexpected condition or exception which prevented the server from fulfilling an API request.', status: 500 };
+        case 503:
+            return { error: 'Service Unavailable. The server is currently unavailable to handle requests because of an unknown reason.', status: 503 };
     }
     return { error: `Failed to fetch ${resource.toLowerCase()} from Riot API.`, status: 502 };
 }
@@ -28,7 +38,6 @@ export async function GET(request: Request) {
     try {
         const account = await getAccountByRiotId(gameName, tagLine);
         const puuid = account.puuid;
-        
         const [championMastery, roleCounts, rankInfo] = await Promise.all([
             getChampionMasteryByPuuid(puuid),
             getRolesInfoFromRankSoloRecentMatches(puuid, 5),
@@ -36,7 +45,7 @@ export async function GET(request: Request) {
         ]);
 
 
-        return NextResponse.json({ 
+        return NextResponse.json({
             summoner: {
                 gameName: account.gameName,
                 tagLine: account.tagLine,
@@ -53,5 +62,4 @@ export async function GET(request: Request) {
         console.error("Summoner route error:", error);
         return NextResponse.json({ error: 'Unexpected server error while fetching summoner data' }, { status: 500 });
     }
-
 }
