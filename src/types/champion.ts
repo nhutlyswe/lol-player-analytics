@@ -15,4 +15,3 @@ export interface ChampionInfo {
     name: string;
     image: string;
 }
-

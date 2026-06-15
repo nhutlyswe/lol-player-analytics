@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "eslint . --ext .ts,.tsx --fix"
   },
   "dependencies": {
     "next": "^16.2.7",

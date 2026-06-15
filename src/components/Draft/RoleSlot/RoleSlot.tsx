@@ -1,4 +1,5 @@
 import { Role } from "../../../types/draft";
+
 import styles from "./RoleSlot.module.css";
 
 type Props = {

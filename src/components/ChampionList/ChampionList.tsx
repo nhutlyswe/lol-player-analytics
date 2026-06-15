@@ -1,4 +1,5 @@
 import { ChampionMastery } from "@/types/champion";
+
 import styles from "./ChampionList.module.css";
 
 type Props = {

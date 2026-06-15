@@ -1,13 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { TeamSide, Role } from "../../../types/draft";
+
+import { TeamSide, Role } from "@/types/draft";
+
 import { useDraft } from "@/hooks/useDraft";
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
+
 import { getChampionIconUrlByName } from "@/lib/ddragon";
-import TeamColumn from "../TeamColumn/TeamColumn";
-import ChampionPicker from "../ChampionPicker/ChampionPicker";
+
 import PlayerSelection from "../PlayerSelection/PlayerSelection";
+import ChampionPicker from "../ChampionPicker/ChampionPicker";
+import TeamColumn from "../TeamColumn/TeamColumn";
+
 import styles from "./DraftBoard.module.css";
 
 export default function DraftBoard() {
@@ -30,9 +35,7 @@ export default function DraftBoard() {
 
     function handleChampionSelect(champion: string) {
         if (!selectedSlot) return;
-
         updateDraft(selectedSlot.team, selectedSlot.role, champion);
-        // Keep the role selected so user can pick another champion for the same role
     }
 
     function handleSelection(team: TeamSide, role: Role) {

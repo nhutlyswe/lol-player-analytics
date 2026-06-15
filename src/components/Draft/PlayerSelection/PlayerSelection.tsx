@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+
 import { Role, TeamSide } from "@/types/draft";
+
 import styles from "./PlayerSelection.module.css";
 
 type Props = {
@@ -76,4 +78,3 @@ export default function PlayerSelection({
         </form>
     );
 }
-

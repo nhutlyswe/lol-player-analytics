@@ -44,7 +44,6 @@ export async function GET(request: Request) {
             getRankInfoByPuuid(puuid),
         ]);
 
-
         return NextResponse.json({
             summoner: {
                 gameName: account.gameName,
