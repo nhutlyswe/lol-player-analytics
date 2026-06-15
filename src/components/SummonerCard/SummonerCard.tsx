@@ -1,4 +1,5 @@
 import { Summoner } from "@/types/summoner";
+
 import styles from "./SummonerCard.module.css";
 
 type Props = {
@@ -42,5 +43,3 @@ export default function SummonerCard({
         </section>
     )
 }
-
-

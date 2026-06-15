@@ -1,8 +1,10 @@
 "use client";
 
-import styles from "./ChampionPicker.module.css";
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
+
 import { getChampionIconUrl } from "@/lib/ddragon";
+
+import styles from "./ChampionPicker.module.css";
 
 type Props = {
     onSelect: (champion: string) => void;

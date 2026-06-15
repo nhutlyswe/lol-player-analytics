@@ -1,4 +1,4 @@
-import { Champion } from "./champion";
+import { ChampionMastery } from "./champion";
 
 export interface Summoner{
     gameName: string;
@@ -9,5 +9,5 @@ export interface Summoner{
     winrateSolo: number;
     winrateFlex: number;
     roleCounts: Record<string, number>;
-    championPool: Champion[];
+    championPool: ChampionMastery[];
 }

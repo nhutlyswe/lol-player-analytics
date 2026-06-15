@@ -6,6 +6,12 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   // Override default ignores of eslint-config-next.
+  {
+    rules: {
+      "eol-last": ["error", "always"],
+      "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 0 }],
+    },
+  },
   globalIgnores([
     // Default ignores of eslint-config-next:
     ".next/**",

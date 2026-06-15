@@ -34,34 +34,34 @@
 }
 
 .legend {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #f8f8ff;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.09em;
 }
 
 .label {
     display: block;
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: #cfd8ff;
 }
 
 .select {
     width: 100%;
-    min-height: 44px;
-    padding: 0 12px;
+    min-height: 48px;
+    padding: 0 16px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.14);
     background: rgba(10, 14, 27, 0.95);
     color: #fff;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
 }
 
 .button {
     width: 100%;
     min-width: 140px;
-    padding: 12px 14px;
+    padding: 14px 16px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.16);
     background: linear-gradient(135deg, rgba(56, 106, 255, 0.9), rgba(255, 71, 95, 0.9));

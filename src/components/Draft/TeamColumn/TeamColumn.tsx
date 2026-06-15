@@ -1,5 +1,7 @@
 import { TeamDraft, TeamSide, Role } from "@/types/draft";
+
 import RoleSlot from "../RoleSlot/RoleSlot";
+
 import styles from "./TeamColumn.module.css";
 
 type Props = {

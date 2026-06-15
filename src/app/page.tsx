@@ -1,23 +1,18 @@
 "use client";
 
-// Styles
-import styles from "./page.module.css";
-
-// React
 import { useState } from "react";
 
-// Components
 import SearchBar from "@/components/SearchBar/SearchBar";
 import SummonerCard from "@/components/SummonerCard/SummonerCard";
 import ChampionList from "@/components/ChampionList/ChampionList";
 
-// Types
 import { Summoner } from "@/types/summoner";
 import { ChampionMastery } from "@/types/champion";
 
-// Utils
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
 import { getChampionIconUrl } from "@/lib/ddragon";
+
+import styles from "./page.module.css";
 
 export default function Home() {
 
@@ -35,11 +30,6 @@ export default function Home() {
 
   // Riot Metadata
   const { ddragonVersion, championNames, championImageIds, loading: metadataLoading } = useChampionMetadata();
-
-  // =========================
-  // API Functions
-  // =========================
-  // Handles backend/API requests
 
   // Fetch champion mastery data for a summoner
   async function fetchSummonerData(
@@ -115,18 +105,18 @@ export default function Home() {
           {error}
         </p>
       )}
-    
+
       {/* Results */}
       {summoner && (
         <><section>
           <SummonerCard summoner={summoner} />
         </section>
-        <section>
+          <section>
             <ChampionList
               championMasteries={champions}
               championNames={championNames}
               getChampionIconUrl={(championId) => getChampionIconUrl(ddragonVersion, championId, championImageIds)} />
-        </section></>
+          </section></>
       )}
     </main>
   );
