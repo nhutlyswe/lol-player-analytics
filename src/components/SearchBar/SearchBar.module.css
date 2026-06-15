@@ -22,7 +22,7 @@
     color: #fff;
     backdrop-filter: blur(10px);
     transition: all 0.2s ease;
-    min-width: 0; /* prevents overflow in flex layouts */
+    min-width: 0;
 }
 
 .searchInput:focus {
