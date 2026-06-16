@@ -1,0 +1,61 @@
+{
+  "traits": {
+    "Frontline": {
+      "description": "Can absorb damage and create space."
+    },
+    "Engage": {
+      "description": "Can reliably start fights."
+    },
+    "Disengage": {
+      "description": "Can stop or escape engagements."
+    },
+    "Peel": {
+      "description": "Protects carries from threats."
+    },
+    "Dive": {
+      "description": "Excels at reaching enemy backline."
+    },
+    "Pick": {
+      "description": "Can isolate and catch targets."
+    },
+    "Poke": {
+      "description": "Deals damage from range before fights."
+    },
+    "Burst": {
+      "description": "High damage in a short window."
+    },
+    "Teamfight": {
+      "description": "Strong impact in 5v5 fights."
+    },
+    "Skirmish": {
+      "description": "Strong in small fights."
+    },
+    "SplitPush": {
+      "description": "Wins through side-lane pressure."
+    },
+    "Scaling": {
+      "description": "Gets stronger later in the game."
+    },
+    "EarlyGame": {
+      "description": "Strong laning and early pressure."
+    },
+    "Roaming": {
+      "description": "Can influence other lanes."
+    },
+    "Siege": {
+      "description": "Strong at taking towers."
+    },
+    "AntiDive": {
+      "description": "Good against diving champions."
+    },
+    "AntiTank": {
+      "description": "Good against durable champions."
+    },
+    "AntiPoke": {
+      "description": "Good against poke compositions."
+    },
+    "AntiBurst": {
+      "description": "Good against burst damage."
+    }
+  }
+}

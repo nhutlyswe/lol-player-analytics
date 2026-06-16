@@ -1,0 +1,2782 @@
+{
+  "champions": [
+    {
+      "champion": "Aatrox",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Ahri",
+      "roles": [
+        "mid",
+        "support",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.9,
+        "Assassin": 0.95,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Akali",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Akshan",
+      "roles": [
+        "adc",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Alistar",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Ambessa",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Amumu",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Anivia",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Annie",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Aphelios",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Ashe",
+      "roles": [
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Aurelion Sol",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Aurora",
+      "roles": [
+        "mid",
+        "support",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.9,
+        "Assassin": 0.95,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Azir",
+      "roles": [
+        "mid",
+        "support",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7,
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Bard",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Bel'Veth",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Blitzcrank",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Brand",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Braum",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Briar",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Caitlyn",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Camille",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Cassiopeia",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Cho'Gath",
+      "roles": [
+        "top",
+        "support",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.6,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Corki",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Darius",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Diana",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Draven",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Dr. Mundo",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6
+      }
+    },
+    {
+      "champion": "Ekko",
+      "roles": [
+        "mid",
+        "jungle",
+        "top",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6
+      }
+    },
+    {
+      "champion": "Elise",
+      "roles": [
+        "mid",
+        "jungle",
+        "top",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6
+      }
+    },
+    {
+      "champion": "Evelynn",
+      "roles": [
+        "mid",
+        "jungle",
+        "top",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6
+      }
+    },
+    {
+      "champion": "Ezreal",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Fiddlesticks",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Fiora",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Fizz",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Galio",
+      "roles": [
+        "top",
+        "support",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.6,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Gangplank",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Garen",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Gnar",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Gragas",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Graves",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Gwen",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Hecarim",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Heimerdinger",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Hwei",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Illaoi",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Irelia",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Ivern",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Janna",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Jarvan IV",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Jax",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Jayce",
+      "roles": [
+        "top",
+        "jungle",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6
+      }
+    },
+    {
+      "champion": "Jhin",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Jinx",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Kai'Sa",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Kalista",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Karma",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Karthus",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Kassadin",
+      "roles": [
+        "mid",
+        "jungle",
+        "top",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6
+      }
+    },
+    {
+      "champion": "Katarina",
+      "roles": [
+        "mid",
+        "jungle",
+        "top",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6
+      }
+    },
+    {
+      "champion": "Kayle",
+      "roles": [
+        "mid",
+        "support",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7,
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Kayn",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Kennen",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Kha'Zix",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Kindred",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Kled",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Kog'Maw",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "K'Sante",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6
+      }
+    },
+    {
+      "champion": "LeBlanc",
+      "roles": [
+        "mid",
+        "jungle",
+        "top",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6
+      }
+    },
+    {
+      "champion": "Lee Sin",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Leona",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Lillia",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Lissandra",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Lucian",
+      "roles": [
+        "adc",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Lulu",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Lux",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Malphite",
+      "roles": [
+        "top",
+        "support",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.6,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Malzahar",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Maokai",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Master Yi",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Mel",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Milio",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Miss Fortune",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Wukong",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Mordekaiser",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Morgana",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Naafiri",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Nami",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Nasus",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Nautilus",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Neeko",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Nidalee",
+      "roles": [
+        "mid",
+        "jungle",
+        "top",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6
+      }
+    },
+    {
+      "champion": "Nilah",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Nocturne",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Nunu & Willump",
+      "roles": [
+        "top",
+        "support",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.6,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Olaf",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Orianna",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Ornn",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Pantheon",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Poppy",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6
+      }
+    },
+    {
+      "champion": "Pyke",
+      "roles": [
+        "support",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Qiyana",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Quinn",
+      "roles": [
+        "adc",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Rakan",
+      "roles": [
+        "support"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Rammus",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Rek'Sai",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Rell",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Renata Glasc",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Renekton",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Rengar",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Riven",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Rumble",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Ryze",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Samira",
+      "roles": [
+        "adc",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Sejuani",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Senna",
+      "roles": [
+        "support",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Seraphine",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Sett",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Shaco",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Shen",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Shyvana",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Singed",
+      "roles": [
+        "top",
+        "support",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.6,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Sion",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6
+      }
+    },
+    {
+      "champion": "Sivir",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Skarner",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6
+      }
+    },
+    {
+      "champion": "Smolder",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Sona",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Soraka",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Swain",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Sylas",
+      "roles": [
+        "mid",
+        "support",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.9,
+        "Assassin": 0.95,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Syndra",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Tahm Kench",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.65,
+        "Utility": 0.75,
+        "Support": 0.95,
+        "Enchanter": 0.8
+      }
+    },
+    {
+      "champion": "Taliyah",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Talon",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Taric",
+      "roles": [
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Tank": 0.95,
+        "Engage": 0.8
+      }
+    },
+    {
+      "champion": "Teemo",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Thresh",
+      "roles": [
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Tank": 0.95,
+        "Engage": 0.8
+      }
+    },
+    {
+      "champion": "Tristana",
+      "roles": [
+        "adc",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Trundle",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Tryndamere",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Twisted Fate",
+      "roles": [
+        "mid",
+        "support",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7,
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Twitch",
+      "roles": [
+        "adc",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Udyr",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Urgot",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Varus",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.8,
+        "Skirmisher": 0.4,
+        "Mage": 0.95,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Vayne",
+      "roles": [
+        "adc",
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Veigar",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Vel'Koz",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Vex",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Vi",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Viego",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Viktor",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Vladimir",
+      "roles": [
+        "mid",
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5
+      }
+    },
+    {
+      "champion": "Volibear",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Warwick",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Xayah",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Xerath",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    },
+    {
+      "champion": "Xin Zhao",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Yasuo",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Yone",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Yorick",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.8,
+        "Tank": 0.95,
+        "Peel": 0.6,
+        "Utility": 0.5
+      }
+    },
+    {
+      "champion": "Yunara",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Yuumi",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Zaahen",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6,
+        "Engage": 0.5,
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Zac",
+      "roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Tank": 0.95,
+        "Engage": 0.8,
+        "Peel": 0.6,
+        "Utility": 0.5,
+        "Bruiser": 0.9,
+        "Skirmisher": 0.7,
+        "SustainedDamage": 0.6
+      }
+    },
+    {
+      "champion": "Zed",
+      "roles": [
+        "mid",
+        "jungle",
+        "top"
+      ],
+      "suggestedTraits": {
+        "Assassin": 0.95,
+        "Burst": 0.9,
+        "Mobility": 0.8,
+        "Squishy": 0.3
+      }
+    },
+    {
+      "champion": "Zeri",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "ADC": 0.95,
+        "Carry": 0.9,
+        "Poke": 0.6,
+        "Skirmisher": 0.4
+      }
+    },
+    {
+      "champion": "Ziggs",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Zilean",
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Utility": 0.75,
+        "Peel": 0.65,
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Zoe",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.6,
+        "Burst": 0.7
+      }
+    },
+    {
+      "champion": "Zyra",
+      "roles": [
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Mage": 0.95,
+        "Poke": 0.8,
+        "Utility": 0.75,
+        "Burst": 0.7,
+        "Support": 0.95,
+        "Enchanter": 0.8,
+        "Peel": 0.65
+      }
+    }
+  ]
+}

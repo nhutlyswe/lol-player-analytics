@@ -1,0 +1,45 @@
+{
+  "Frontline": {
+    "synergizesWith": {
+      "Scaling": 5,
+      "Poke": 4,
+      "Siege": 4
+    }
+  },
+
+  "Engage": {
+    "synergizesWith": {
+      "Burst": 5,
+      "Teamfight": 5,
+      "Dive": 4
+    }
+  },
+
+  "Peel": {
+    "synergizesWith": {
+      "Scaling": 5,
+      "Siege": 3
+    }
+  },
+
+  "Dive": {
+    "synergizesWith": {
+      "Burst": 4,
+      "Roaming": 4,
+      "Skirmish": 5
+    }
+  },
+
+  "Poke": {
+    "synergizesWith": {
+      "Siege": 5,
+      "Disengage": 4
+    }
+  },
+
+  "SplitPush": {
+    "synergizesWith": {
+      "Skirmish": 3
+    }
+  }
+}
