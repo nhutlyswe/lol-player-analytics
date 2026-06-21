@@ -7,77 +7,96 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
       "champion": "Ahri",
       "roles": [
         "mid",
+        "adc",
         "support",
-        "jungle",
-        "top"
+        "top",
+        "jungle"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.95,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.9,
-        "Assassin": 0.95,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Akali",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Akshan",
       "roles": [
         "adc",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Alistar",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
@@ -88,59 +107,78 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Amumu",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
       "champion": "Anivia",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Annie",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
@@ -149,10 +187,13 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
@@ -162,78 +203,104 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Aurelion Sol",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Aurora",
       "roles": [
         "mid",
+        "adc",
         "support",
-        "jungle",
-        "top"
+        "top",
+        "jungle"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.95,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.9,
-        "Assassin": 0.95,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Azir",
       "roles": [
         "mid",
-        "support",
-        "adc"
+        "adc",
+        "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7,
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Skirmisher": 0.4
+        "Teamfight": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.7,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Skirmish": 0.6
       }
     },
     {
       "champion": "Bard",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -243,58 +310,77 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
       "champion": "Blitzcrank",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
       "champion": "Brand",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Braum",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
@@ -305,14 +391,17 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
@@ -321,10 +410,13 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
@@ -335,45 +427,59 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Cassiopeia",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Cho'Gath",
       "roles": [
         "top",
-        "support",
         "jungle",
-        "mid"
+        "support",
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.6,
-        "Mage": 0.95,
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -384,13 +490,15 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
@@ -401,13 +509,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -418,14 +531,17 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
@@ -434,81 +550,107 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
       "champion": "Dr. Mundo",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
       }
     },
     {
       "champion": "Ekko",
       "roles": [
-        "mid",
-        "jungle",
         "top",
+        "jungle",
+        "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Mage": 0.95,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
         "Poke": 0.8,
-        "Utility": 0.6
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Elise",
       "roles": [
-        "mid",
-        "jungle",
         "top",
+        "jungle",
+        "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Mage": 0.95,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
         "Poke": 0.8,
-        "Utility": 0.6
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Evelynn",
       "roles": [
-        "mid",
-        "jungle",
         "top",
+        "jungle",
+        "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Mage": 0.95,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
         "Poke": 0.8,
-        "Utility": 0.6
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -519,29 +661,39 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
       "champion": "Fiddlesticks",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
@@ -552,50 +704,63 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Fizz",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Roaming": 0.7,
+        "Skirmish": 0.9,
+        "EarlyGame": 0.6,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
       "champion": "Galio",
       "roles": [
         "top",
-        "support",
         "jungle",
-        "mid"
+        "support",
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.6,
-        "Mage": 0.95,
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -605,10 +770,13 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
@@ -619,13 +787,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -636,13 +809,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -651,17 +829,23 @@
         "top",
         "jungle",
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Mage": 0.95,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -670,10 +854,13 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
@@ -683,10 +870,13 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
@@ -697,45 +887,66 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
       "champion": "Heimerdinger",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Hwei",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
@@ -746,13 +957,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -763,46 +979,65 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Ivern",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Janna",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -813,13 +1048,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -829,10 +1069,13 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
@@ -843,13 +1086,18 @@
         "adc"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
@@ -860,13 +1108,15 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
@@ -875,10 +1125,13 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
@@ -889,13 +1142,15 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
@@ -904,92 +1159,121 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
       "champion": "Karma",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Karthus",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Kassadin",
       "roles": [
-        "mid",
-        "jungle",
         "top",
+        "jungle",
+        "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Mage": 0.95,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
         "Poke": 0.8,
-        "Utility": 0.6
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Katarina",
       "roles": [
-        "mid",
-        "jungle",
         "top",
+        "jungle",
+        "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Mage": 0.95,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
         "Poke": 0.8,
-        "Utility": 0.6
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Kayle",
       "roles": [
         "mid",
-        "support",
-        "adc"
+        "adc",
+        "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7,
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Skirmisher": 0.4
+        "Teamfight": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.7,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Skirmish": 0.6
       }
     },
     {
@@ -1000,41 +1284,50 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Kennen",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Kha'Zix",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
@@ -1043,10 +1336,13 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
@@ -1056,10 +1352,13 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
@@ -1070,48 +1369,61 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
       "champion": "K'Sante",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
       }
     },
     {
       "champion": "LeBlanc",
       "roles": [
-        "mid",
-        "jungle",
         "top",
+        "jungle",
+        "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Mage": 0.95,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
         "Poke": 0.8,
-        "Utility": 0.6
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -1122,30 +1434,37 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Leona",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
@@ -1154,128 +1473,173 @@
         "top",
         "jungle",
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Mage": 0.95,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Lissandra",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Lucian",
       "roles": [
         "adc",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Lulu",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Lux",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Malphite",
       "roles": [
         "top",
-        "support",
         "jungle",
-        "mid"
+        "support",
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.6,
-        "Mage": 0.95,
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Malzahar",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Maokai",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
@@ -1286,46 +1650,65 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Mel",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Milio",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -1336,13 +1719,15 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
@@ -1353,13 +1738,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -1368,67 +1758,92 @@
         "top",
         "jungle",
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Mage": 0.95,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Morgana",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Naafiri",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Roaming": 0.7,
+        "Skirmish": 0.9,
+        "EarlyGame": 0.6,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
       "champion": "Nami",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -1439,63 +1854,86 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
       "champion": "Nautilus",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
       "champion": "Neeko",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Nidalee",
       "roles": [
-        "mid",
-        "jungle",
         "top",
+        "jungle",
+        "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Mage": 0.95,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
         "Poke": 0.8,
-        "Utility": 0.6
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -1506,14 +1944,17 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
@@ -1524,32 +1965,42 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Nunu & Willump",
       "roles": [
         "top",
-        "support",
         "jungle",
-        "mid"
+        "support",
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.6,
-        "Mage": 0.95,
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -1560,43 +2011,59 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
       "champion": "Orianna",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Ornn",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -1607,83 +2074,102 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Poppy",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
       }
     },
     {
       "champion": "Pyke",
       "roles": [
         "support",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Qiyana",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Quinn",
       "roles": [
         "adc",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
@@ -1692,24 +2178,30 @@
         "support"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Rammus",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -1720,45 +2212,62 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
       "champion": "Rell",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
       "champion": "Renata Glasc",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -1769,31 +2278,39 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
       "champion": "Rengar",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Roaming": 0.7,
+        "Skirmish": 0.9,
+        "EarlyGame": 0.6,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
       }
     },
     {
@@ -1804,14 +2321,17 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
@@ -1820,63 +2340,80 @@
         "top",
         "jungle",
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Mage": 0.95,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Ryze",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Samira",
       "roles": [
         "adc",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Sejuani",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -1886,30 +2423,44 @@
         "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
       "champion": "Seraphine",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -1920,41 +2471,51 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
       "champion": "Shaco",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Shen",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -1965,48 +2526,65 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
       "champion": "Singed",
       "roles": [
         "top",
-        "support",
         "jungle",
-        "mid"
+        "support",
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.6,
-        "Mage": 0.95,
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Sion",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
       }
     },
     {
@@ -2015,27 +2593,35 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
       "champion": "Skarner",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
       }
     },
     {
@@ -2046,138 +2632,188 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
       "champion": "Sona",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Soraka",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Swain",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Sylas",
       "roles": [
         "mid",
+        "adc",
         "support",
-        "jungle",
-        "top"
+        "top",
+        "jungle"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.95,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.9,
-        "Assassin": 0.95,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Syndra",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Tahm Kench",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.65,
-        "Utility": 0.75,
-        "Support": 0.95,
-        "Enchanter": 0.8
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
       }
     },
     {
       "champion": "Taliyah",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Talon",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
@@ -2188,12 +2824,16 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Tank": 0.95,
-        "Engage": 0.8
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.85,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Frontline": 0.95,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6
       }
     },
     {
@@ -2204,13 +2844,15 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
@@ -2221,31 +2863,39 @@
         "jungle"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Tank": 0.95,
-        "Engage": 0.8
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.85,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Frontline": 0.95,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6
       }
     },
     {
       "champion": "Tristana",
       "roles": [
         "adc",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
@@ -2256,13 +2906,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -2273,50 +2928,59 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Twisted Fate",
       "roles": [
         "mid",
-        "support",
-        "adc"
+        "adc",
+        "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7,
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Skirmisher": 0.4
+        "Teamfight": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.7,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Skirmish": 0.6
       }
     },
     {
       "champion": "Twitch",
       "roles": [
         "adc",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
@@ -2327,13 +2991,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -2344,13 +3013,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -2361,74 +3035,96 @@
         "support"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
         "Poke": 0.8,
-        "Skirmisher": 0.4,
-        "Mage": 0.95,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
       }
     },
     {
       "champion": "Vayne",
       "roles": [
         "adc",
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
       "champion": "Veigar",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Vel'Koz",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
       "champion": "Vex",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -2439,14 +3135,17 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
@@ -2457,46 +3156,59 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Viktor",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Vladimir",
       "roles": [
         "mid",
+        "adc",
         "support",
         "top",
         "jungle"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
       }
     },
     {
@@ -2507,13 +3219,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -2524,13 +3241,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -2539,26 +3261,37 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
       "champion": "Xerath",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     },
     {
@@ -2569,13 +3302,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -2586,14 +3324,17 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
@@ -2604,14 +3345,17 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
@@ -2622,13 +3366,18 @@
         "support"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.8,
-        "Tank": 0.95,
-        "Peel": 0.6,
-        "Utility": 0.5
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
       }
     },
     {
@@ -2637,26 +3386,37 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
       "champion": "Yuumi",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
@@ -2667,45 +3427,55 @@
         "mid"
       ],
       "suggestedTraits": {
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6,
-        "Engage": 0.5,
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7
       }
     },
     {
       "champion": "Zac",
       "roles": [
         "top",
-        "support",
-        "jungle"
+        "jungle",
+        "support"
       ],
       "suggestedTraits": {
-        "Tank": 0.95,
-        "Engage": 0.8,
-        "Peel": 0.6,
-        "Utility": 0.5,
-        "Bruiser": 0.9,
-        "Skirmisher": 0.7,
-        "SustainedDamage": 0.6
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
       }
     },
     {
       "champion": "Zed",
       "roles": [
-        "mid",
+        "top",
         "jungle",
-        "top"
+        "mid"
       ],
       "suggestedTraits": {
-        "Assassin": 0.95,
-        "Burst": 0.9,
+        "Burst": 0.95,
+        "Pick": 0.9,
         "Mobility": 0.8,
-        "Squishy": 0.3
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
       }
     },
     {
@@ -2714,68 +3484,95 @@
         "adc"
       ],
       "suggestedTraits": {
-        "ADC": 0.95,
-        "Carry": 0.9,
-        "Poke": 0.6,
-        "Skirmisher": 0.4
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
       }
     },
     {
       "champion": "Ziggs",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Zilean",
       "roles": [
         "support",
-        "mid"
+        "mid",
+        "adc"
       ],
       "suggestedTraits": {
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Utility": 0.75,
-        "Peel": 0.65,
-        "Mage": 0.95,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Zoe",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.6,
-        "Burst": 0.7
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
       }
     },
     {
       "champion": "Zyra",
       "roles": [
         "mid",
+        "adc",
         "support"
       ],
       "suggestedTraits": {
-        "Mage": 0.95,
+        "Burst": 0.8,
         "Poke": 0.8,
-        "Utility": 0.75,
-        "Burst": 0.7,
-        "Support": 0.95,
-        "Enchanter": 0.8,
-        "Peel": 0.65
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
       }
     }
   ]

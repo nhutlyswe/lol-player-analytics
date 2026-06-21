@@ -2,20 +2,72 @@ const DATA_DRAGON_ROUTING = "ddragon.leagueoflegends.com";
 
 const roleTagMap = {
   Marksman: ["adc"],
-  Mage: ["mid", "support"],
-  Assassin: ["mid", "jungle", "top"],
+  Mage: ["mid", "adc", "support"],
+  Assassin: ["top", "jungle", "mid"],
   Fighter: ["top", "jungle"],
-  Tank: ["top", "support", "jungle"],
+  Tank: ["top", "jungle", "support"],
   Support: ["support"]
 };
 
 const traitWeightsByTag = {
-  Marksman: { ADC: 0.95, Carry: 0.9, Poke: 0.6, Skirmisher: 0.4 },
-  Mage: { Mage: 0.95, Poke: 0.8, Utility: 0.6, Burst: 0.7 },
-  Assassin: { Assassin: 0.95, Burst: 0.9, Mobility: 0.8, Squishy: 0.3 },
-  Fighter: { Bruiser: 0.9, Skirmisher: 0.7, SustainedDamage: 0.6, Engage: 0.5 },
-  Tank: { Tank: 0.95, Engage: 0.8, Peel: 0.6, Utility: 0.5 },
-  Support: { Support: 0.95, Enchanter: 0.8, Utility: 0.75, Peel: 0.65 }
+  Marksman: {
+    Scaling: 0.9,
+    Teamfight: 0.8,
+    AntiTank: 0.8,
+    Siege: 0.7,
+    Skirmish: 0.6,
+    Poke: 0.5,
+    Waveclear: 0.4
+  },
+
+  Mage: {
+    Burst: 0.8,
+    Poke: 0.8,
+    Teamfight: 0.7,
+    Waveclear: 0.7,
+    ZoneControl: 0.6,
+    Siege: 0.5,
+    Scaling: 0.5
+  },
+
+  Assassin: {
+    Burst: 0.95,
+    Pick: 0.9,
+    Mobility: 0.8,
+    Roaming: 0.7,
+    Skirmish: 0.7,
+    EarlyGame: 0.5
+  },
+
+  Fighter: {
+    Skirmish: 0.9,
+    Dive: 0.7,
+    Frontline: 0.6,
+    EarlyGame: 0.6,
+    Sustain: 0.6,
+    SplitPush: 0.5,
+    Teamfight: 0.4
+  },
+
+  Tank: {
+    Frontline: 0.95,
+    Engage: 0.85,
+    Peel: 0.8,
+    Teamfight: 0.8,
+    AntiBurst: 0.6,
+    AntiDive: 0.6,
+    CC: 0.6
+  },
+
+  Support: {
+    Utility: 0.9,
+    Peel: 0.8,
+    VisionControl: 0.7,
+    Disengage: 0.6,
+    Engage: 0.5,
+    AntiDive: 0.5,
+    CC: 0.5
+  }
 };
 
 function mergeTraitWeights(target, source) {
