@@ -1,0 +1,85 @@
+{
+  "traits": {
+    "AntiBurst": {
+      "description": "Good against burst damage."
+    },
+    "AntiDive": {
+      "description": "Good against diving champions."
+    },
+    "AntiPoke": {
+      "description": "Good against poke compositions."
+    },
+    "AntiTank": {
+      "description": "Good against durable champions."
+    },
+    "Burst": {
+      "description": "High damage in a short window."
+    },
+    "CC": {
+      "description": "Provides reliable crowd control."
+    },
+    "Disengage": {
+      "description": "Can stop or escape engagements."
+    },
+    "Dive": {
+      "description": "Excels at reaching enemy backline."
+    },
+    "EarlyGame": {
+      "description": "Strong laning and early pressure."
+    },
+    "Engage": {
+      "description": "Can reliably start fights."
+    },
+    "Frontline": {
+      "description": "Can absorb damage and create space."
+    },
+    "Mobility": {
+      "description": "Has high movement and repositioning tools."
+    },
+    "ObjectiveControl": {
+      "description": "Strong around dragons, barons, and towers."
+    },
+    "Peel": {
+      "description": "Protects carries from threats."
+    },
+    "Pick": {
+      "description": "Can isolate and catch targets."
+    },
+    "Poke": {
+      "description": "Deals damage from range before fights."
+    },
+    "Roaming": {
+      "description": "Can influence other lanes."
+    },
+    "Scaling": {
+      "description": "Gets stronger later in the game."
+    },
+    "Siege": {
+      "description": "Strong at taking towers."
+    },
+    "Skirmish": {
+      "description": "Strong in small fights."
+    },
+    "SplitPush": {
+      "description": "Wins through side-lane pressure."
+    },
+    "Sustain": {
+      "description": "Can heal or endure over extended fights."
+    },
+    "Teamfight": {
+      "description": "Strong impact in 5v5 fights."
+    },
+    "Utility": {
+      "description": "Provides buffs, shields, healing, or crowd control."
+    },
+    "VisionControl": {
+      "description": "Excels at creating or denying vision."
+    },
+    "Waveclear": {
+      "description": "Can quickly clear minion waves."
+    },
+    "ZoneControl": {
+      "description": "Controls areas with persistent threats."
+    }
+  }
+}

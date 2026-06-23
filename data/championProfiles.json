@@ -1,0 +1,3579 @@
+{
+  "champions": [
+    {
+      "champion": "Aatrox",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Ahri",
+      "roles": [
+        "mid",
+        "adc",
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Akali",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Akshan",
+      "roles": [
+        "adc",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Alistar",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Ambessa",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Amumu",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Anivia",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Annie",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Aphelios",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Ashe",
+      "roles": [
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Aurelion Sol",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Aurora",
+      "roles": [
+        "mid",
+        "adc",
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Azir",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.7,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Skirmish": 0.6
+      }
+    },
+    {
+      "champion": "Bard",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Bel'Veth",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Blitzcrank",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Brand",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Braum",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Briar",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Caitlyn",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Camille",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Cassiopeia",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Cho'Gath",
+      "roles": [
+        "top",
+        "jungle",
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Corki",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Darius",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Diana",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Draven",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Dr. Mundo",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
+      }
+    },
+    {
+      "champion": "Ekko",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Elise",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Evelynn",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Ezreal",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Fiddlesticks",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Fiora",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Fizz",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.9,
+        "EarlyGame": 0.6,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Galio",
+      "roles": [
+        "top",
+        "jungle",
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Gangplank",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Garen",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Gnar",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Gragas",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Graves",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Gwen",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Hecarim",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Heimerdinger",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Hwei",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Illaoi",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Irelia",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Ivern",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Janna",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Jarvan IV",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Jax",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Jayce",
+      "roles": [
+        "top",
+        "jungle",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Jhin",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Jinx",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Kai'Sa",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Kalista",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Karma",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Karthus",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Kassadin",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Katarina",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Kayle",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.7,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Skirmish": 0.6
+      }
+    },
+    {
+      "champion": "Kayn",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Kennen",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Kha'Zix",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Kindred",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Kled",
+      "roles": [
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Kog'Maw",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "K'Sante",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
+      }
+    },
+    {
+      "champion": "LeBlanc",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Lee Sin",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Leona",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Lillia",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Lissandra",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Lucian",
+      "roles": [
+        "adc",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Lulu",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Lux",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Malphite",
+      "roles": [
+        "top",
+        "jungle",
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Malzahar",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Maokai",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Master Yi",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Mel",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Milio",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Miss Fortune",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Wukong",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Mordekaiser",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Morgana",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Naafiri",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.9,
+        "EarlyGame": 0.6,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Nami",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Nasus",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Nautilus",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Neeko",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Nidalee",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Nilah",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Nocturne",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Nunu & Willump",
+      "roles": [
+        "top",
+        "jungle",
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Olaf",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Orianna",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Ornn",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Pantheon",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Poppy",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
+      }
+    },
+    {
+      "champion": "Pyke",
+      "roles": [
+        "support",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Qiyana",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Quinn",
+      "roles": [
+        "adc",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Rakan",
+      "roles": [
+        "support"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Rammus",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Rek'Sai",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Rell",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Renata Glasc",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Renekton",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Rengar",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.9,
+        "EarlyGame": 0.6,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4
+      }
+    },
+    {
+      "champion": "Riven",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Rumble",
+      "roles": [
+        "top",
+        "jungle",
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.7,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Ryze",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Samira",
+      "roles": [
+        "adc",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Sejuani",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Senna",
+      "roles": [
+        "support",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Seraphine",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Sett",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Shaco",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Shen",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Shyvana",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Singed",
+      "roles": [
+        "top",
+        "jungle",
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Sion",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
+      }
+    },
+    {
+      "champion": "Sivir",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Skarner",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
+      }
+    },
+    {
+      "champion": "Smolder",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Sona",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Soraka",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Swain",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Sylas",
+      "roles": [
+        "mid",
+        "adc",
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Syndra",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Tahm Kench",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Utility": 0.9,
+        "VisionControl": 0.7,
+        "Disengage": 0.6
+      }
+    },
+    {
+      "champion": "Taliyah",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Talon",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Taric",
+      "roles": [
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.85,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Frontline": 0.95,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6
+      }
+    },
+    {
+      "champion": "Teemo",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Thresh",
+      "roles": [
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.85,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Frontline": 0.95,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6
+      }
+    },
+    {
+      "champion": "Tristana",
+      "roles": [
+        "adc",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Trundle",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Tryndamere",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Twisted Fate",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.8,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.7,
+        "Scaling": 0.9,
+        "AntiTank": 0.8,
+        "Skirmish": 0.6
+      }
+    },
+    {
+      "champion": "Twitch",
+      "roles": [
+        "adc",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Udyr",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Urgot",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Varus",
+      "roles": [
+        "adc",
+        "mid",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.8,
+        "Waveclear": 0.7,
+        "Burst": 0.8,
+        "ZoneControl": 0.6
+      }
+    },
+    {
+      "champion": "Vayne",
+      "roles": [
+        "adc",
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.7,
+        "Poke": 0.5,
+        "Waveclear": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Veigar",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Vel'Koz",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Vex",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Vi",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Viego",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Viktor",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Vladimir",
+      "roles": [
+        "mid",
+        "adc",
+        "support",
+        "top",
+        "jungle"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
+      }
+    },
+    {
+      "champion": "Volibear",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Warwick",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Xayah",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Xerath",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    },
+    {
+      "champion": "Xin Zhao",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Yasuo",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Yone",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Yorick",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.95,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.8,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6
+      }
+    },
+    {
+      "champion": "Yunara",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Yuumi",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Zaahen",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "Frontline": 0.6,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5,
+        "Teamfight": 0.4,
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7
+      }
+    },
+    {
+      "champion": "Zac",
+      "roles": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Frontline": 0.95,
+        "Engage": 0.85,
+        "Peel": 0.8,
+        "Teamfight": 0.8,
+        "AntiBurst": 0.6,
+        "AntiDive": 0.6,
+        "CC": 0.6,
+        "Skirmish": 0.9,
+        "Dive": 0.7,
+        "EarlyGame": 0.6,
+        "Sustain": 0.6,
+        "SplitPush": 0.5
+      }
+    },
+    {
+      "champion": "Zed",
+      "roles": [
+        "top",
+        "jungle",
+        "mid"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.95,
+        "Pick": 0.9,
+        "Mobility": 0.8,
+        "Roaming": 0.7,
+        "Skirmish": 0.7,
+        "EarlyGame": 0.5
+      }
+    },
+    {
+      "champion": "Zeri",
+      "roles": [
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Scaling": 0.9,
+        "Teamfight": 0.8,
+        "AntiTank": 0.8,
+        "Siege": 0.7,
+        "Skirmish": 0.6,
+        "Poke": 0.5,
+        "Waveclear": 0.4
+      }
+    },
+    {
+      "champion": "Ziggs",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Zilean",
+      "roles": [
+        "support",
+        "mid",
+        "adc"
+      ],
+      "suggestedTraits": {
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5,
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Zoe",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5
+      }
+    },
+    {
+      "champion": "Zyra",
+      "roles": [
+        "mid",
+        "adc",
+        "support"
+      ],
+      "suggestedTraits": {
+        "Burst": 0.8,
+        "Poke": 0.8,
+        "Teamfight": 0.7,
+        "Waveclear": 0.7,
+        "ZoneControl": 0.6,
+        "Siege": 0.5,
+        "Scaling": 0.5,
+        "Utility": 0.9,
+        "Peel": 0.8,
+        "VisionControl": 0.7,
+        "Disengage": 0.6,
+        "Engage": 0.5,
+        "AntiDive": 0.5,
+        "CC": 0.5
+      }
+    }
+  ]
+}
