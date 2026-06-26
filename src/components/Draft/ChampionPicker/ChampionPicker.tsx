@@ -8,9 +8,10 @@ import styles from "./ChampionPicker.module.css";
 
 type Props = {
     onSelect: (champion: string) => void;
+    topRecommendations: string[];
 };
 
-export default function ChampionPicker({ onSelect }: Props) {
+export default function ChampionPicker({ onSelect, topRecommendations }: Props) {
     const { ddragonVersion, championNames, championImageIds, loading } = useChampionMetadata();
 
     if (loading) {
@@ -27,6 +28,13 @@ export default function ChampionPicker({ onSelect }: Props) {
         .sort((a, b) => {
             const nameA = championNames[a] ?? "";
             const nameB = championNames[b] ?? "";
+
+            // Recommended champions first
+            const aIsRecommended = topRecommendations.includes(nameA);
+            const bIsRecommended = topRecommendations.includes(nameB);
+            
+            if (aIsRecommended && !bIsRecommended) return -1;
+            if (!aIsRecommended && bIsRecommended) return 1;
             return nameA.localeCompare(nameB);
         });
 
@@ -55,6 +63,9 @@ export default function ChampionPicker({ onSelect }: Props) {
                             aria-label={championName}
                             onClick={() => onSelect(championName)}
                         >
+                            {topRecommendations.includes(championName) && (
+                                <span className={styles.badge}>⭐</span>
+                            )}
                             {iconUrl ? (
                                 <>
                                     <img
