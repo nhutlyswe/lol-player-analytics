@@ -6,6 +6,7 @@ import { TeamSide, Role } from "@/types/draft";
 
 import { useDraft } from "@/hooks/useDraft";
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
+import { useRecommendations } from "@/hooks/useRecommendations";
 
 import { getChampionIconUrlByName } from "@/lib/ddragon";
 
@@ -24,6 +25,23 @@ export default function DraftBoard() {
         role: Role;
     } | null>(null);
 
+    const [recommendationRequest, setRecommendationRequest] = useState<{
+        team: TeamSide;
+        role: Role;
+    } | null>(null);
+
+    const { recommendations } = useRecommendations(
+        draft,
+        recommendationRequest?.team ?? "blue",
+        recommendationRequest?.role ?? "top"
+    );
+
+    const currentTeamHasPicks = Object.values(draft[selectedSlot?.team ?? "blue"]).some(Boolean);
+
+    const topRecommendations = (recommendationRequest && currentTeamHasPicks)
+    ? recommendations.slice(0, 3).map(r => r.champion)
+    : [];
+
     function onSelectRole(team: TeamSide, role: Role) {
         // Toggle: if clicking the same role, deselect it; otherwise select the new role
         if (selectedSlot?.team === team && selectedSlot?.role === role) {
@@ -31,6 +49,7 @@ export default function DraftBoard() {
         } else {
             setSelectedSlot({ team, role });
         }
+        setRecommendationRequest(null);
     }
 
     function handleChampionSelect(champion: string) {
@@ -39,7 +58,9 @@ export default function DraftBoard() {
     }
 
     function handleSelection(team: TeamSide, role: Role) {
+
         setSelectedSlot({ team, role });
+        setRecommendationRequest({ team, role });
     }
 
     function getChampionIconUrl(champion: string | null) {
@@ -72,8 +93,10 @@ export default function DraftBoard() {
 
                 {/* Center Picker */}
                 <div className={styles.center}>
-                    
-                    <ChampionPicker onSelect={handleChampionSelect} />
+                    <ChampionPicker 
+                        onSelect={handleChampionSelect} 
+                        topRecommendations={topRecommendations}
+                    />
                 </div>
 
                 {/* Red Team */}

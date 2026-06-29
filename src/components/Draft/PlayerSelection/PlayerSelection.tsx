@@ -71,7 +71,7 @@ export default function PlayerSelection({
                     </div>
 
                     <button className={styles.button} type="submit">
-                        Select player slot
+                        Recommend Me
                     </button>
                 </div>
             </fieldset>

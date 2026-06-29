@@ -58,7 +58,8 @@ export async function GET(request: Request) {
             champions: championMastery,
         });
     } catch (error) {
-        console.error("Summoner route error:", error);
-        return NextResponse.json({ error: 'Unexpected server error while fetching summoner data' }, { status: 500 });
+        const status = error instanceof Response ? error.status : 500;
+        const mappedError = mapRiotError(status, 'Summoner');
+        return NextResponse.json( mappedError, { status: mappedError.status });
     }
 }
