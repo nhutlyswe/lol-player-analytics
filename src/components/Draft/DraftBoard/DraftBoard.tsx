@@ -25,12 +25,18 @@ export default function DraftBoard() {
         role: Role;
     } | null>(null);
 
+    const [recommendationRequest, setRecommendationRequest] = useState<{
+        team: TeamSide;
+        role: Role;
+    } | null>(null);
+
     const { recommendations } = useRecommendations(
         draft,
         selectedSlot?.team ?? "blue",
         selectedSlot?.role ?? "top"
     );
-    const topRecommendations = selectedSlot 
+    
+    const topRecommendations = recommendationRequest 
     ? recommendations.slice(0, 3).map(r => r.champion) 
     : [];
 
@@ -41,6 +47,7 @@ export default function DraftBoard() {
         } else {
             setSelectedSlot({ team, role });
         }
+        setRecommendationRequest(null);
     }
 
     function handleChampionSelect(champion: string) {
@@ -50,6 +57,7 @@ export default function DraftBoard() {
 
     function handleSelection(team: TeamSide, role: Role) {
         setSelectedSlot({ team, role });
+        setRecommendationRequest({ team, role });
     }
 
     function getChampionIconUrl(champion: string | null) {

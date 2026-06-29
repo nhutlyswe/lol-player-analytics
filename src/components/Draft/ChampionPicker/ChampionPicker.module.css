@@ -66,3 +66,14 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.recommended {
+  border: 2px solid gold;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.9); }
+  50% { box-shadow: 0 0 30px rgba(255, 215, 0, 1); }
+}

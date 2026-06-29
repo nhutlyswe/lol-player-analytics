@@ -59,13 +59,10 @@ export default function ChampionPicker({ onSelect, topRecommendations }: Props) 
                     return (
                         <button
                             key={championId}
-                            className={styles.button}
+                            className={`${styles.button} ${topRecommendations.includes(championName) ? styles.recommended : ""}`}
                             aria-label={championName}
                             onClick={() => onSelect(championName)}
                         >
-                            {topRecommendations.includes(championName) && (
-                                <span className={styles.badge}>⭐</span>
-                            )}
                             {iconUrl ? (
                                 <>
                                     <img
