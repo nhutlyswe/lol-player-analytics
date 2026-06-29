@@ -6,6 +6,7 @@ import { TeamSide, Role } from "@/types/draft";
 
 import { useDraft } from "@/hooks/useDraft";
 import { useChampionMetadata } from "@/hooks/useChampionMetadata";
+import { useRecommendations } from "@/hooks/useRecommendations";
 
 import { getChampionIconUrlByName } from "@/lib/ddragon";
 
@@ -14,7 +15,6 @@ import ChampionPicker from "../ChampionPicker/ChampionPicker";
 import TeamColumn from "../TeamColumn/TeamColumn";
 
 import styles from "./DraftBoard.module.css";
-import { useRecommendations } from "@/hooks/useRecommendations";
 
 export default function DraftBoard() {
     const { draft, updateDraft } = useDraft();
@@ -32,12 +32,14 @@ export default function DraftBoard() {
 
     const { recommendations } = useRecommendations(
         draft,
-        selectedSlot?.team ?? "blue",
-        selectedSlot?.role ?? "top"
+        recommendationRequest?.team ?? "blue",
+        recommendationRequest?.role ?? "top"
     );
-    
-    const topRecommendations = recommendationRequest 
-    ? recommendations.slice(0, 3).map(r => r.champion) 
+
+    const currentTeamHasPicks = Object.values(draft[selectedSlot?.team ?? "blue"]).some(Boolean);
+
+    const topRecommendations = (recommendationRequest && currentTeamHasPicks)
+    ? recommendations.slice(0, 3).map(r => r.champion)
     : [];
 
     function onSelectRole(team: TeamSide, role: Role) {
@@ -56,6 +58,7 @@ export default function DraftBoard() {
     }
 
     function handleSelection(team: TeamSide, role: Role) {
+
         setSelectedSlot({ team, role });
         setRecommendationRequest({ team, role });
     }
@@ -90,7 +93,6 @@ export default function DraftBoard() {
 
                 {/* Center Picker */}
                 <div className={styles.center}>
-                    
                     <ChampionPicker 
                         onSelect={handleChampionSelect} 
                         topRecommendations={topRecommendations}
