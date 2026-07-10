@@ -19,11 +19,7 @@
     {
       "champion": "Ahri",
       "roles": [
-        "mid",
-        "adc",
-        "support",
-        "top",
-        "jungle"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -44,7 +40,6 @@
       "champion": "Akali",
       "roles": [
         "top",
-        "jungle",
         "mid"
       ],
       "suggestedTraits": {
@@ -59,9 +54,6 @@
     {
       "champion": "Akshan",
       "roles": [
-        "adc",
-        "top",
-        "jungle",
         "mid"
       ],
       "suggestedTraits": {
@@ -82,8 +74,6 @@
     {
       "champion": "Alistar",
       "roles": [
-        "top",
-        "jungle",
         "support"
       ],
       "suggestedTraits": {
@@ -123,7 +113,6 @@
     {
       "champion": "Amumu",
       "roles": [
-        "top",
         "jungle",
         "support"
       ],
@@ -143,8 +132,8 @@
     {
       "champion": "Anivia",
       "roles": [
+        "top",
         "mid",
-        "adc",
         "support"
       ],
       "suggestedTraits": {
@@ -160,9 +149,7 @@
     {
       "champion": "Annie",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -222,9 +209,7 @@
     {
       "champion": "Aurelion Sol",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -239,11 +224,8 @@
     {
       "champion": "Aurora",
       "roles": [
-        "mid",
-        "adc",
-        "support",
         "top",
-        "jungle"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -263,9 +245,7 @@
     {
       "champion": "Azir",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -282,9 +262,7 @@
     {
       "champion": "Bard",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -306,7 +284,6 @@
     {
       "champion": "Bel'Veth",
       "roles": [
-        "top",
         "jungle"
       ],
       "suggestedTraits": {
@@ -322,8 +299,6 @@
     {
       "champion": "Blitzcrank",
       "roles": [
-        "top",
-        "jungle",
         "support"
       ],
       "suggestedTraits": {
@@ -343,6 +318,7 @@
       "champion": "Brand",
       "roles": [
         "mid",
+        "jungle",
         "adc",
         "support"
       ],
@@ -366,8 +342,6 @@
     {
       "champion": "Braum",
       "roles": [
-        "top",
-        "jungle",
         "support"
       ],
       "suggestedTraits": {
@@ -386,9 +360,7 @@
     {
       "champion": "Briar",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -423,8 +395,7 @@
       "champion": "Camille",
       "roles": [
         "top",
-        "jungle",
-        "mid"
+        "support"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -444,8 +415,7 @@
       "champion": "Cassiopeia",
       "roles": [
         "mid",
-        "adc",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -462,9 +432,7 @@
       "roles": [
         "top",
         "jungle",
-        "support",
-        "mid",
-        "adc"
+        "mid"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -486,8 +454,7 @@
       "champion": "Corki",
       "roles": [
         "adc",
-        "mid",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -505,8 +472,7 @@
       "champion": "Darius",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -526,7 +492,6 @@
     {
       "champion": "Diana",
       "roles": [
-        "top",
         "jungle",
         "mid"
       ],
@@ -563,8 +528,7 @@
       "champion": "Dr. Mundo",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -584,11 +548,8 @@
     {
       "champion": "Ekko",
       "roles": [
-        "top",
         "jungle",
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -608,10 +569,7 @@
     {
       "champion": "Elise",
       "roles": [
-        "top",
         "jungle",
-        "mid",
-        "adc",
         "support"
       ],
       "suggestedTraits": {
@@ -632,11 +590,7 @@
     {
       "champion": "Evelynn",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -656,9 +610,7 @@
     {
       "champion": "Ezreal",
       "roles": [
-        "adc",
-        "mid",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -675,9 +627,7 @@
     {
       "champion": "Fiddlesticks",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -699,9 +649,7 @@
     {
       "champion": "Fiora",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -720,8 +668,6 @@
     {
       "champion": "Fizz",
       "roles": [
-        "top",
-        "jungle",
         "mid"
       ],
       "suggestedTraits": {
@@ -742,10 +688,7 @@
       "champion": "Galio",
       "roles": [
         "top",
-        "jungle",
-        "support",
-        "mid",
-        "adc"
+        "mid"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -767,7 +710,7 @@
       "champion": "Gangplank",
       "roles": [
         "top",
-        "jungle"
+        "mid"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -782,9 +725,7 @@
     {
       "champion": "Garen",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -804,9 +745,7 @@
     {
       "champion": "Gnar",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -828,9 +767,7 @@
       "roles": [
         "top",
         "jungle",
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -851,7 +788,7 @@
     {
       "champion": "Graves",
       "roles": [
-        "adc"
+        "jungle"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -883,8 +820,7 @@
       "champion": "Hecarim",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -904,8 +840,8 @@
     {
       "champion": "Heimerdinger",
       "roles": [
+        "top",
         "mid",
-        "adc",
         "support"
       ],
       "suggestedTraits": {
@@ -928,9 +864,7 @@
     {
       "champion": "Hwei",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -952,9 +886,7 @@
     {
       "champion": "Illaoi",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -975,7 +907,6 @@
       "champion": "Irelia",
       "roles": [
         "top",
-        "jungle",
         "mid"
       ],
       "suggestedTraits": {
@@ -995,9 +926,7 @@
     {
       "champion": "Ivern",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "jungle"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -1019,9 +948,7 @@
     {
       "champion": "Janna",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -1043,9 +970,7 @@
     {
       "champion": "Jarvan IV",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1081,9 +1006,7 @@
     {
       "champion": "Jayce",
       "roles": [
-        "top",
-        "jungle",
-        "adc"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1103,9 +1026,7 @@
     {
       "champion": "Jhin",
       "roles": [
-        "adc",
-        "mid",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -1137,9 +1058,7 @@
     {
       "champion": "Kai'Sa",
       "roles": [
-        "adc",
-        "mid",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -1172,7 +1091,6 @@
       "champion": "Karma",
       "roles": [
         "mid",
-        "adc",
         "support"
       ],
       "suggestedTraits": {
@@ -1195,9 +1113,8 @@
     {
       "champion": "Karthus",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "jungle",
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -1212,11 +1129,7 @@
     {
       "champion": "Kassadin",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -1236,11 +1149,7 @@
     {
       "champion": "Katarina",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -1260,9 +1169,8 @@
     {
       "champion": "Kayle",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "top",
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -1280,8 +1188,7 @@
       "champion": "Kayn",
       "roles": [
         "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1300,9 +1207,7 @@
     {
       "champion": "Kennen",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -1317,9 +1222,7 @@
     {
       "champion": "Kha'Zix",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -1333,7 +1236,7 @@
     {
       "champion": "Kindred",
       "roles": [
-        "adc"
+        "jungle"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -1348,8 +1251,7 @@
     {
       "champion": "Kled",
       "roles": [
-        "top",
-        "jungle"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1364,9 +1266,7 @@
     {
       "champion": "Kog'Maw",
       "roles": [
-        "adc",
-        "mid",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -1383,9 +1283,7 @@
     {
       "champion": "K'Sante",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -1405,11 +1303,7 @@
     {
       "champion": "LeBlanc",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -1429,9 +1323,7 @@
     {
       "champion": "Lee Sin",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1450,8 +1342,6 @@
     {
       "champion": "Leona",
       "roles": [
-        "top",
-        "jungle",
         "support"
       ],
       "suggestedTraits": {
@@ -1470,11 +1360,7 @@
     {
       "champion": "Lillia",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1495,9 +1381,7 @@
     {
       "champion": "Lissandra",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -1584,10 +1468,7 @@
       "champion": "Malphite",
       "roles": [
         "top",
-        "jungle",
-        "support",
-        "mid",
-        "adc"
+        "jungle"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -1645,9 +1526,7 @@
     {
       "champion": "Master Yi",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1690,9 +1569,7 @@
     {
       "champion": "Milio",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -1714,9 +1591,7 @@
     {
       "champion": "Miss Fortune",
       "roles": [
-        "adc",
-        "mid",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -1734,8 +1609,7 @@
       "champion": "Wukong",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1755,11 +1629,7 @@
     {
       "champion": "Mordekaiser",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1780,9 +1650,7 @@
     {
       "champion": "Morgana",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -1804,7 +1672,6 @@
     {
       "champion": "Naafiri",
       "roles": [
-        "top",
         "jungle",
         "mid"
       ],
@@ -1825,9 +1692,7 @@
     {
       "champion": "Nami",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -1849,9 +1714,7 @@
     {
       "champion": "Nasus",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1871,8 +1734,6 @@
     {
       "champion": "Nautilus",
       "roles": [
-        "top",
-        "jungle",
         "support"
       ],
       "suggestedTraits": {
@@ -1915,11 +1776,7 @@
     {
       "champion": "Nidalee",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -1939,9 +1796,7 @@
     {
       "champion": "Nilah",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "adc"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1960,9 +1815,7 @@
     {
       "champion": "Nocturne",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -1981,11 +1834,7 @@
     {
       "champion": "Nunu & Willump",
       "roles": [
-        "top",
-        "jungle",
-        "support",
-        "mid",
-        "adc"
+        "jungle"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -2007,8 +1856,7 @@
       "champion": "Olaf",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2028,9 +1876,7 @@
     {
       "champion": "Orianna",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -2052,9 +1898,7 @@
     {
       "champion": "Ornn",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -2112,10 +1956,7 @@
     {
       "champion": "Pyke",
       "roles": [
-        "support",
-        "top",
-        "jungle",
-        "mid"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2136,7 +1977,6 @@
     {
       "champion": "Qiyana",
       "roles": [
-        "top",
         "jungle",
         "mid"
       ],
@@ -2152,10 +1992,7 @@
     {
       "champion": "Quinn",
       "roles": [
-        "adc",
-        "top",
-        "jungle",
-        "mid"
+        "top"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -2190,9 +2027,7 @@
     {
       "champion": "Rammus",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -2207,9 +2042,7 @@
     {
       "champion": "Rek'Sai",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2229,8 +2062,6 @@
     {
       "champion": "Rell",
       "roles": [
-        "top",
-        "jungle",
         "support"
       ],
       "suggestedTraits": {
@@ -2249,9 +2080,7 @@
     {
       "champion": "Renata Glasc",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2273,9 +2102,7 @@
     {
       "champion": "Renekton",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2295,9 +2122,7 @@
     {
       "champion": "Rengar",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -2316,9 +2141,7 @@
     {
       "champion": "Riven",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2337,11 +2160,7 @@
     {
       "champion": "Rumble",
       "roles": [
-        "top",
-        "jungle",
-        "mid",
-        "adc",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2362,9 +2181,7 @@
     {
       "champion": "Ryze",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -2379,10 +2196,7 @@
     {
       "champion": "Samira",
       "roles": [
-        "adc",
-        "top",
-        "jungle",
-        "mid"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -2402,9 +2216,7 @@
     {
       "champion": "Sejuani",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -2419,8 +2231,8 @@
     {
       "champion": "Senna",
       "roles": [
-        "support",
-        "adc"
+        "adc",
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2442,9 +2254,9 @@
     {
       "champion": "Seraphine",
       "roles": [
-        "support",
         "mid",
-        "adc"
+        "adc",
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2466,9 +2278,7 @@
     {
       "champion": "Sett",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2489,8 +2299,7 @@
       "champion": "Shaco",
       "roles": [
         "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -2522,8 +2331,7 @@
       "champion": "Shyvana",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2543,11 +2351,7 @@
     {
       "champion": "Singed",
       "roles": [
-        "top",
-        "jungle",
-        "support",
-        "mid",
-        "adc"
+        "top"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -2568,9 +2372,7 @@
     {
       "champion": "Sion",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Frontline": 0.95,
@@ -2627,9 +2429,7 @@
     {
       "champion": "Smolder",
       "roles": [
-        "adc",
-        "mid",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -2646,9 +2446,7 @@
     {
       "champion": "Sona",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2670,9 +2468,7 @@
     {
       "champion": "Soraka",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2694,9 +2490,7 @@
     {
       "champion": "Swain",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -2718,11 +2512,8 @@
     {
       "champion": "Sylas",
       "roles": [
-        "mid",
-        "adc",
-        "support",
-        "top",
-        "jungle"
+        "jungle",
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.95,
@@ -2742,9 +2533,7 @@
     {
       "champion": "Syndra",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -2760,7 +2549,6 @@
       "champion": "Tahm Kench",
       "roles": [
         "top",
-        "jungle",
         "support"
       ],
       "suggestedTraits": {
@@ -2779,9 +2567,7 @@
     {
       "champion": "Taliyah",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -2803,7 +2589,6 @@
     {
       "champion": "Talon",
       "roles": [
-        "top",
         "jungle",
         "mid"
       ],
@@ -2819,9 +2604,7 @@
     {
       "champion": "Taric",
       "roles": [
-        "support",
-        "top",
-        "jungle"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2839,7 +2622,7 @@
     {
       "champion": "Teemo",
       "roles": [
-        "adc",
+        "top",
         "mid",
         "support"
       ],
@@ -2858,9 +2641,7 @@
     {
       "champion": "Thresh",
       "roles": [
-        "support",
-        "top",
-        "jungle"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -2878,10 +2659,7 @@
     {
       "champion": "Tristana",
       "roles": [
-        "adc",
-        "top",
-        "jungle",
-        "mid"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -2902,8 +2680,7 @@
       "champion": "Trundle",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2923,9 +2700,7 @@
     {
       "champion": "Tryndamere",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -2944,9 +2719,7 @@
     {
       "champion": "Twisted Fate",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -2963,10 +2736,7 @@
     {
       "champion": "Twitch",
       "roles": [
-        "adc",
-        "top",
-        "jungle",
-        "mid"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -2987,8 +2757,7 @@
       "champion": "Udyr",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3008,9 +2777,7 @@
     {
       "champion": "Urgot",
       "roles": [
-        "top",
-        "jungle",
-        "support"
+        "top"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3030,9 +2797,8 @@
     {
       "champion": "Varus",
       "roles": [
-        "adc",
-        "mid",
-        "support"
+        "top",
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -3049,10 +2815,8 @@
     {
       "champion": "Vayne",
       "roles": [
-        "adc",
         "top",
-        "jungle",
-        "mid"
+        "adc"
       ],
       "suggestedTraits": {
         "Scaling": 0.9,
@@ -3113,9 +2877,7 @@
     {
       "champion": "Vex",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -3130,9 +2892,7 @@
     {
       "champion": "Vi",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3151,9 +2911,7 @@
     {
       "champion": "Viego",
       "roles": [
-        "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3172,9 +2930,7 @@
     {
       "champion": "Viktor",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -3189,11 +2945,8 @@
     {
       "champion": "Vladimir",
       "roles": [
-        "mid",
-        "adc",
-        "support",
         "top",
-        "jungle"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -3215,8 +2968,7 @@
       "champion": "Volibear",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3237,8 +2989,7 @@
       "champion": "Warwick",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3298,8 +3049,7 @@
       "champion": "Xin Zhao",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3320,7 +3070,6 @@
       "champion": "Yasuo",
       "roles": [
         "top",
-        "jungle",
         "mid"
       ],
       "suggestedTraits": {
@@ -3341,7 +3090,6 @@
       "champion": "Yone",
       "roles": [
         "top",
-        "jungle",
         "mid"
       ],
       "suggestedTraits": {
@@ -3362,8 +3110,7 @@
       "champion": "Yorick",
       "roles": [
         "top",
-        "jungle",
-        "support"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3398,9 +3145,7 @@
     {
       "champion": "Yuumi",
       "roles": [
-        "support",
-        "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -3423,8 +3168,7 @@
       "champion": "Zaahen",
       "roles": [
         "top",
-        "jungle",
-        "mid"
+        "jungle"
       ],
       "suggestedTraits": {
         "Skirmish": 0.9,
@@ -3465,7 +3209,6 @@
     {
       "champion": "Zed",
       "roles": [
-        "top",
         "jungle",
         "mid"
       ],
@@ -3497,8 +3240,7 @@
       "champion": "Ziggs",
       "roles": [
         "mid",
-        "adc",
-        "support"
+        "adc"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -3513,9 +3255,8 @@
     {
       "champion": "Zilean",
       "roles": [
-        "support",
         "mid",
-        "adc"
+        "support"
       ],
       "suggestedTraits": {
         "Utility": 0.9,
@@ -3537,9 +3278,7 @@
     {
       "champion": "Zoe",
       "roles": [
-        "mid",
-        "adc",
-        "support"
+        "mid"
       ],
       "suggestedTraits": {
         "Burst": 0.8,
@@ -3555,7 +3294,6 @@
       "champion": "Zyra",
       "roles": [
         "mid",
-        "adc",
         "support"
       ],
       "suggestedTraits": {
